@@ -1,0 +1,387 @@
+*{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    direction: rtl;
+    height: 100%;
+    margin: 0;
+    font-family: IRANSans;
+}
+:root {
+    --black: black;
+    --white: white;
+    --grey-darkest: #22262a;
+    --grey-darker: #394046;
+    --grey-dark: #505962;
+    --grey: #67737e;
+    --grey-light: #818c98;
+    --grey-lighter: #9da6af;
+    --grey-lightest: #b9bfc6;
+    --blue-darkest: #084d5e;
+    --blue-darker: #0b748e;
+    --blue-dark: #0f9abd;
+    --blue: #13c1ec;
+    --blue-light: #42cdf0;
+    --blue-lighter: #71daf4;
+    --blue-lightest: #a1e6f7;
+    --aqua-darkest: #085e51;
+    --red-lightest: #ffccd9;
+    --aqua-darker: #0c8d79;
+    --aqua-dark: #10bca2;
+    --aqua: #14ebca;
+    --aqua-light: #43efd5;
+    --aqua-lighter: #72f3df;
+    --aqua-lightest: #a1f7ea;
+    --green-darkest: #001a10;
+    --green-darker: #004d2f;
+    --green-dark: #00804f;
+    --green: #00b36e;
+    --green-light: #00e68e;
+    --green-lighter: #1affa7;
+    --green-lightest: #4dffbb;
+    --red-darkest: #4d0013;
+    --red-darker: #990026;
+    --red-dark: #e60039;
+    --red: #ff3366;
+    --red-light: #ff668c;
+    --red-lighter: #ff99b3;
+    --clr-bg-primary: black;
+    --clr-bg-secondary: #22262a;
+    --clr-txt-primary: white;
+    --clr-txt-primary-darker: #b9bfc6;
+    --clr-txt-primary-lighter: white;
+    --clr-txt-secondary: #505962;
+    --clr-txt-secondary-darker: #394046;
+    --clr-txt-secondary-lighter: #67737e;
+    --clr-accent-primary: #13c1ec;
+    --clr-accent-primary-darker: #0f9abd;
+    --clr-accent-primary-lighter: #42cdf0;
+    --clr-accent-secondary: #14ebca;
+    --clr-accent-secondary-darker: #10bca2;
+    --clr-accent-secondary-lighter: #43efd5;
+    --clr-disabled: #67737e;
+    --ff: Roboto, Helvetica, sans-serif;
+    --fs: 1rem;
+    --fs-xs: calc(var(--fs) * 0.7);
+    --fs-s: calc(var(--fs) * 0.85);
+    --fs-m: var(--fs);
+    --fs-l: calc(var(--fs) * 1.2);
+    --fs-xl: calc(var(--fs) * 1.5);
+    --fs-2xl: calc(var(--fs) * 2);
+    --fs-3xl: calc(var(--fs) * 3);
+    --fs-4xl: calc(var(--fs) * 4);
+    --border-radius: 0.3rem;
+    --br: 0.3rem;
+    --line-height: 1.6;
+    --lh: 1.6;
+    --lh-s: calc(var(--lh) * 0.85);
+    --lh-m: var(--lh);
+    --lh-l: calc(var(--lh) * 1.2);
+    --spacer: 1rem;
+    --spacer-xs: calc(var(--spacer) * 0.7);
+    --spacer-s: calc(var(--spacer) * 0.85);
+    --spacer-m: var(--spacer);
+    --spacer-l: calc(var(--spacer) * 1.2);
+    --spacer-xl: calc(var(--spacer) * 1.5);
+    --spacer-2xl: calc(var(--spacer) * 2);
+    --gradient: linear-gradient(
+            160deg,
+            var(--clr-accent-primary) 0%,
+            var(--clr-accent-secondary) 100%
+    );
+    --glow-primary: 0 0 16px var(--clr-accent-primary);
+    --glow-red: 0 0 16px var(--red);
+    --glow-green: 0 0 16px var(--green);
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    line-height: var(--lh);
+}
+
+.mobileTabSvg{
+    width: 100%;
+}
+.tablinkPopUp{
+    width: 85%;
+    background-color: transparent;
+    border: none;
+
+}
+.activeSvgMobile{
+    filter: invert(25%) sepia(88%) saturate(4403%) hue-rotate(359deg) brightness(99%) contrast(102%);
+    width: 100%;
+}
+
+.svgmobilewidth{
+    width: 1px;
+}
+
+.zr__circle-carousel__container {
+    background: transparent;
+    height: 112px;
+    width: 30%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    display: none;
+}
+
+.zr__circle-carousel {
+    list-style: none;
+    position: absolute;
+    left: calc(-50vw + 50%);
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.zr__circle-carousel__item {
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    min-width: 55px;
+    background: #103b7f;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid transparent;
+    transition: transform 700ms ease-out, opacity 200ms ease-out;
+    position: absolute;
+    left: calc(50% - 372px * 0.5);
+}
+.zr__circle-carousel__item .smooth {
+    transition: transform 2000ms ease-out;
+}
+.zr__circle-carousel__item * {
+    pointer-events: none;
+}
+.zr__circle-carousel__item:hover {
+    border: 2px solid white;
+}
+.zr__circle-carousel__item.focused {
+    transform: translate(calc(372px * 0.5 - 80px * 0.5 + var(--offset, "0px")), 0) scale(1.4);
+    opacity: 1;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+.zr__circle-carousel__item.focused-before {
+    transform: translate(var(--offset, "0px"), 0) scale(1);
+    opacity: 1;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+
+}
+.zr__circle-carousel__item.focused-after {
+    transform: translate(calc(372px - 80px + var(--offset, "0px")), 0);
+    opacity: 1;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+.zr__circle-carousel__item.before {
+    transform: translate(-80px) scale(0.4);
+    opacity: 0;
+    pointer-events: none;
+}
+.zr__circle-carousel__item.after {
+    transform: translate(calc(372px)) scale(0.4);
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+
+
+
+/*nav */
+
+
+@keyframes opacityAnimation {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes closeopacityAnimation {
+    from {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+/*pop pop nav*/
+.overlay3 {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0); /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay3 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.overlay3-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay3 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 50px;
+    color: #fec90b;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay3 a:hover, .overlay3 a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Position the close button (top right corner) */
+.overlay3 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 50px;
+}
+#hamber {
+    font-size: 180%;
+    display: none;
+    color: #f77908;
+}
+
+@media only screen and (max-width: 768px) {
+    .zr__circle-carousel__container{
+        display: block;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .zr__circle-carousel {
+        width: 95vw;
+    }
+    .zr__circle-carousel__item{
+        height: 45px;
+        width: 45px;
+        min-width: 45px;
+    }
+    .tablinkPopUp {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+    .zr__circle-carousel {
+        width: 100vw;
+    }
+    .overlay3-content {
+        margin-top: -8px;
+    }
+
+}
+@media only screen and (max-width: 376px) {
+
+    .zr__circle-carousel__item.focused {
+        transform: translate(calc(300px * 0.5 - 80px * 0.5 + var(--offset, "0px")), 0) scale(1.4);
+    }
+
+    .zr__circle-carousel__item.focused-after {
+        transform: translate(calc(300px - 80px + var(--offset, "0px")), 0);
+    }
+    .zr__circle-carousel__item.after {
+        transform: translate(calc(300px)) scale(0.4);
+    }
+    .zr__circle-carousel {
+        width: 122vw;
+    }
+
+}
+
+
+
+
+/*--------------------------Start Mobile And Tablet Carousel--------------------------------------------------*/
+
+.carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+    left: -30px;
+}
+
+.owl-nav .owl-next {
+    right: -30px;
+}
+
+
+/*--------------------------End Mobile And Tablet Carousel----------------------------------------------------*/
+
+

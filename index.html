@@ -1,0 +1,2955 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!--************************This website was developed by: ARMIN BAYAT MOKHTARI & MOHSEN ZAHRAEE*****************************-->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+    <meta name="description" content="گروه های شرکت تدبیر و تحول آینده">
+
+
+    <!----------------++++++++++***********************-------------Authors-----------***********************++++++++++----------------->
+    <meta name="author" content="Mohsen Zahraee & Armin Bayat Mokhtari">
+    <!-------------------++++++++++***********************----------Authors---------***********************++++++++++------------------->
+
+
+    <title>تدبیر و تحول آینده</title>
+
+    <!--===================================Start Links===================================-->
+
+    <link rel="stylesheet" href="./css/tabCss.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/tab2Css.css">
+    <link rel="stylesheet" href="./css/mobileTabCss.css">
+    <link rel="stylesheet" href="css/contentCarouselCss.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/flickity.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/PNG/لوگوی-وسط-سایت.png">
+    <link rel="mask-icon" type=""
+          href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+          color="#111">
+
+
+    <link rel="canonical" href="https://codepen.io/kareem-mahmoud/pen/XWpZJBL">
+
+
+    <link rel="apple-touch-icon" type="image/png"
+          href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"/>
+
+
+    <link rel="mask-icon" type=""
+          href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+          color="#111"/>
+
+    <!--===================================End Links===================================-->
+
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+
+
+    <!--===============================Start Preloader Styles===========================-->
+
+    <!--<style class="INLINE_PEN_STYLESHEET_ID">
+        .preloaderAnime {
+            z-index: 50;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .load {
+            padding: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: center center;
+            transform: translate(-50%, -50%) rotate(135deg);
+            /*change these sizes to fit into your project*/
+            width: 50px;
+            height: 50px;
+        }
+
+        .load div {
+            border: 0;
+            margin: 0;
+            width: 90%;
+            height: 90%;
+            position: absolute;
+            border-radius: 50%;
+            animation: spin 2s ease infinite;
+        }
+
+        .load :first-child {
+            background: #fec90b;
+            animation-delay: -1.5s;
+        }
+
+        .load :nth-child(2) {
+            background: #fec90b;
+            animation-delay: -1s;
+        }
+
+        .load :nth-child(3) {
+            background: #fec90b;
+            animation-delay: -0.5s;
+        }
+
+        .load :last-child {
+            background: #fec90b;
+        }
+
+        @keyframes spin {
+            0%, 100% {
+                transform: translateX(200%);
+            }
+            25% {
+                transform: translateY(200%);
+            }
+            50% {
+                transform: translateX(0);
+            }
+            75% {
+                transform: translateY(0);
+            }
+        }
+    </style>-->
+
+    <!--===============================End Preloader Styles=============================-->
+
+
+    <!--===============================Start SlideShow Styles===========================-->
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .mySlides1 {
+            margin-top: -50px;
+
+        }
+
+        .mySlides2 {
+            margin-top: -50px;
+
+        }
+
+        .mySlides3 {
+            margin-top: -50px;
+
+        }
+
+        .mySlides4 {
+            margin-top: -50px;
+
+        }
+
+        @keyframes slider01R {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slider01L {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slider04R {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slider04L {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slider02 {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+
+                transform: translateY(0);
+            }
+
+        }
+
+        @keyframes slider03 {
+            from {
+
+                transform: translateY(200%);
+            }
+            to {
+
+                transform: translateY(0);
+            }
+
+        }
+
+        .AM-slideDiv {
+            display: grid;
+            grid-template-rows: 1fr 5fr 1fr;
+            justify-items: center;
+            width: 650px;
+            height: 450px;
+            background-color: #fec90b;
+            border-radius: 10px;
+            border: 6px solid #103b7f;
+            border-style: double;
+            opacity: 0.9;
+            box-shadow: 10px 10px 20px #103b7f;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .AM-slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 46%;
+            width: auto;
+            margin-top: -22px;
+            color: #103b7f;
+            font-weight: bold;
+            font-size: 26px;
+            transition: 2s ease;
+            border-radius: 100px;
+            user-select: none;
+            display: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 23px;
+        }
+
+        .prev {
+            left: 23px;
+        }
+
+        /* On hover, add a grey background color */
+        .prev:hover {
+            background: transparent;
+            text-decoration: none;
+            color: #fec90b;
+            transform: translateX(-10px);
+            transition: 1s;
+        }
+
+        .next:hover {
+            background: transparent;
+            color: #fec90b;
+            text-decoration: none;
+            transform: translateX(10px);
+            transition: 1s;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .prev, .next {
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 426px) {
+            .AM-slideDiv {
+                width: 350px;
+                height: 450px;
+                box-shadow: 10px 10px 20px #103b7f;
+                margin-right: 36px;
+            }
+            .prev, .next {
+                top: 46%;
+                margin-top: -22px;
+                font-size: 20px;
+                transition: 2s ease;
+            }
+
+            .next {
+                right: 18px;
+            }
+
+            .prev {
+                left: 18px;
+            }
+
+            .prev:hover {
+                transform: translateX(-7px);
+            }
+
+            .next:hover {
+                transform: translateX(7px);
+            }
+
+        }
+
+        @media only screen and (max-width: 376px) {
+            .AM-slideDiv {
+                width: 300px;
+                height: 450px;
+                margin-right: 36px;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+            .AM-slideDiv {
+                width: 250px;
+                height: 450px;
+                margin-right: 34px;
+            }
+        }
+    </style>
+
+    <!--===============================Start SlideShow Styles===========================-->
+
+
+</head>
+<body>
+
+<!---------------------------------------Start Preloader----------------------------->
+
+<!--<div id="preloaderAnime" class="preloaderAnime"
+     style="background-image: url('./img/PNG/پس-زمینه-سایت.jpg');background-size: cover;background-repeat: no-repeat; ">
+    <div class="load" id="preloaderDiv" style="">
+        <div>
+            <img src="./img/SVG/لوگوی-شرکت-اندشه-پژوهان.svg" alt=""
+                 style="width: 100%;height: 100%;border-radius: 100px;transform: rotate(45deg);">
+        </div>
+        <div>
+            <img src="./img/SVG/لوگوی-موسسه-آفتاب.svg" alt="" style="width: 100%;height: 100%;border-radius: 100px;">
+        </div>
+        <div>
+            <img src="./img/SVG/لوگوی-شرکت-پردیس-مدیریت.svg" alt=""
+                 style="width: 100%;height: 100%;border-radius: 100px;">
+        </div>
+        <div>
+            <img src="./img/SVG/لوگوی-شرکت-رضوان-سیستم.svg" alt=""
+                 style="width: 100%;height: 100%;border-radius: 100px;">
+        </div>
+    </div>
+
+</div>-->
+
+<!---------------------------------End Preloader------------------------------------->
+
+
+<!-------------------------------------Start Navbar---------------------------------->
+
+<div class="mobile-container" id="mobilenav">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav" id="asd" style="height: 50px;">
+        <div id="myLinks">
+            <a href="#">ارتباط با ما</a>
+            <a href="#">درباره ما</a>
+            <a href="#">گالری تصاویر</a>
+            <a href="#">اخبار و رویدادها</a>
+            <a href="#">خدمات و محصولات</a>
+            <a href="#">صفحه نخست</a>
+        </div>
+
+        <div class="container" style="float: left;width: 50px;margin-left: 20px;margin-top: 5px"
+             onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+    <!---------------------------------Start Pop Up--------------------------------->
+
+
+    <div class="containerPopUp" style="float: left;width: 50px;margin-left: 20px;margin-top: 5px"
+         onclick="openNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div id="myNav" class="overlay3">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay3-content">
+            <a href="#">ارتباط با ما</a>
+            <a href="#">درباره ما</a>
+            <a href="#">گالری تصاویر</a>
+            <a href="#">اخبار و رویدادها</a>
+            <a href="#">خدمات و محصولات</a>
+            <a href="#">صفحه نخست</a>
+        </div>
+
+    </div>
+
+
+    <!---------------------------------End Pop Up--------------------------------->
+
+
+    <!-- End smartphone / tablet look -->
+</div>
+
+<div class="buttonTablinks" class="hoverSvg">
+    <div></div>
+    <button class="tablink" onclick="openPage('Home', this, 'blue')"
+            id="defaultOpen">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 42.32">
+
+            <path id="Home_Ico-2" data-name="Home Ico-2" class="cls-2"
+                  d="M971.35,561.63H948.86a9.93,9.93,0,0,1-9.91-9.92V537.8a10,10,0,0,1,3.9-7.89l11.24-8.57a10,10,0,0,1,12,0l3.58,2.72V522a1.65,1.65,0,1,1,3.3,0v5.45a1.66,1.66,0,0,1-1.65,1.66,1.63,1.63,0,0,1-1-.35L964.12,524a6.65,6.65,0,0,0-8,0l-11.24,8.57a6.68,6.68,0,0,0-2.6,5.26v13.91a6.62,6.62,0,0,0,6.61,6.61h22.49a6.62,6.62,0,0,0,6.61-6.61V537.8a6.69,6.69,0,0,0-2.58-5.28,1.65,1.65,0,1,1,1.93-2.68l.08,0a10,10,0,0,1,3.87,7.91v13.91A9.93,9.93,0,0,1,971.35,561.63ZM956.8,538.4a2.07,2.07,0,1,0,2.06,2.07h0A2.07,2.07,0,0,0,956.8,538.4Zm8.68,2.07a2.07,2.07,0,1,1-2.07-2.07,2.07,2.07,0,0,1,2.07,2.07Zm-6.62,6.61A2.07,2.07,0,1,1,956.8,545a2.07,2.07,0,0,1,2.06,2.07Zm6.62,0a2.07,2.07,0,1,1-2.07-2.07,2.07,2.07,0,0,1,2.07,2.07Z"
+                  transform="translate(-933.95 -519.31)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="videoTab" onclick="openPage('Video', this, 'red')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 53.05 43.05">
+            <path class="cls-2"
+                  d="M966.45,518.94H953.13a14.89,14.89,0,0,0-14.86,14.87v13.32A14.88,14.88,0,0,0,953.13,562h13.32a14.88,14.88,0,0,0,14.86-14.86V533.81A14.88,14.88,0,0,0,966.45,518.94Zm11.44,28.19a11.44,11.44,0,0,1-11.44,11.43H953.13a11.43,11.43,0,0,1-11.43-11.43V533.81a11.44,11.44,0,0,1,11.43-11.44h13.32a11.45,11.45,0,0,1,11.44,11.44Z"
+                  transform="translate(-933.27 -518.94)"/>
+            <path class="cls-2"
+                  d="M967.33,537.68l-10.2-6.81a3.36,3.36,0,0,0-5.22,2.79v13.62a3.34,3.34,0,0,0,1.77,3,3.38,3.38,0,0,0,1.6.39,3.25,3.25,0,0,0,1.85-.56l10.2-6.81a3.36,3.36,0,0,0,0-5.58Zm-2,2.77-10,6.7V533.79Z"
+                  transform="translate(-933.27 -518.94)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="aboutTab" onclick="openPage('About', this, 'orange')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 42.32">
+            <path class="cls-2"
+                  d="M964,561.62h-15.7a9.93,9.93,0,0,1-9.92-9.92V529.22a9.93,9.93,0,0,1,9.92-9.91h22.48a9.93,9.93,0,0,1,9.91,9.91v15.83a1.65,1.65,0,0,1-3.3,0V529.22a6.62,6.62,0,0,0-6.61-6.61H948.26a6.63,6.63,0,0,0-6.62,6.61V551.7a6.63,6.63,0,0,0,6.62,6.62H964a1.65,1.65,0,0,1,0,3.3Zm8.43-31.9a1.65,1.65,0,0,0-1.65-1.65H955.61a1.65,1.65,0,0,0,0,3.3h15.13A1.65,1.65,0,0,0,972.39,529.72Zm0,6.61a1.65,1.65,0,0,0-1.65-1.65H948.26a1.66,1.66,0,1,0,0,3.31h22.48A1.65,1.65,0,0,0,972.39,536.33Zm-16.53,6.61a1.65,1.65,0,0,0-1.65-1.65h-6a1.66,1.66,0,1,0,0,3.31h6A1.65,1.65,0,0,0,955.86,542.94Zm-9.26-13.38a2.07,2.07,0,1,0,2.07-2.07A2.07,2.07,0,0,0,946.6,529.56Zm32.29,30.3a6.05,6.05,0,0,0,0-8.54l-5.8-5.79a11.8,11.8,0,0,0-6.11-3.27l-4.68-.94a1.62,1.62,0,0,0-1.49.46,1.68,1.68,0,0,0-.46,1.49l.94,4.68a11.91,11.91,0,0,0,3.27,6.11l5.79,5.8a6.06,6.06,0,0,0,8.54,0ZM966.33,545.5a8.59,8.59,0,0,1,4.42,2.37l5.8,5.79a2.73,2.73,0,1,1-3.86,3.86l-5.79-5.8a8.66,8.66,0,0,1-2.37-4.42l-.45-2.25Z"
+                  transform="translate(-933.34 -519.31)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="systemTab" onclick="openPage('System', this, 'green')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 42.32">
+            <path class="cls-2"
+                  d="M980.22,550.84a4.6,4.6,0,0,0-5.81-2.08,59.58,59.58,0,0,1-5.66,1.93,4.9,4.9,0,0,0-3.51-5.7,5.9,5.9,0,0,0-2.42-.14c-5.67.77-9-1.15-12-2.84-2-1.13-3.89-2.21-6.1-2.21a16.5,16.5,0,0,0-5.13.91,1.65,1.65,0,0,0,1,3.15,12.9,12.9,0,0,1,4.14-.75c1.34,0,2.72.78,4.47,1.78,2.62,1.48,6.05,3.44,11.17,3.44a21.8,21.8,0,0,0,2.92-.21,2.83,2.83,0,0,1,1.1,0,1.6,1.6,0,0,1,1.07,2.12,2.17,2.17,0,0,1-1.28,1.06,11.81,11.81,0,0,1-3.66.52,17.6,17.6,0,0,1-4.46-.52,1.65,1.65,0,1,0-.84,3.19,21.44,21.44,0,0,0,5.3.64h0c6.29,0,11.67-2,15.1-3.31a1.29,1.29,0,0,1,1.71.54,1.23,1.23,0,0,1-.51,1.65,31.93,31.93,0,0,1-16,4.27c-6.3,0-12.11-2.43-15.86-4.47a7.69,7.69,0,0,0-5.15-1,1.6,1.6,0,0,0-1.33,1.62,1.66,1.66,0,0,0,1.66,1.66,2.64,2.64,0,0,0,.42-.06,4.66,4.66,0,0,1,2.82.72c4.09,2.22,10.44,4.87,17.44,4.87a35.52,35.52,0,0,0,17.6-4.65,4.59,4.59,0,0,0,1.87-6.13Z"
+                  transform="translate(-933.41 -519.31)"/>
+            <path class="cls-2"
+                  d="M952.7,535.52a1.64,1.64,0,0,0,1.43.82,1.58,1.58,0,0,0,.83-.23l1.48-.86a7.61,7.61,0,0,0,3.89,2.22v1.67a1.66,1.66,0,1,0,3.31,0v-1.67a7.58,7.58,0,0,0,3.83-2.15l1.36.79a1.59,1.59,0,0,0,.84.23,1.65,1.65,0,0,0,.83-3.08l-1.31-.77a7.52,7.52,0,0,0,.4-2.44,7.61,7.61,0,0,0-.4-2.44l1.32-.77a1.65,1.65,0,0,0-1.68-2.85l-1.36.8a7.6,7.6,0,0,0-3.83-2.16V521a1.66,1.66,0,0,0-3.31,0v1.67a7.59,7.59,0,0,0-3.89,2.23L955,524a1.65,1.65,0,1,0-1.67,2.85l1.46.86a7.65,7.65,0,0,0,0,4.7l-1.46.86a1.65,1.65,0,0,0-.59,2.26Zm9.29-9.77a4.3,4.3,0,1,1-4.3,4.3A4.31,4.31,0,0,1,962,525.75Z"
+                  transform="translate(-933.41 -519.31)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="servicesTab" onclick="openPage('Services', this, 'black')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 40.39">
+            <path class="cls-2"
+                  d="M971,520.27H948.55a10,10,0,0,0-9.92,10V544a10,10,0,0,0,9.92,10H971A10,10,0,0,0,981,544V530.28A10,10,0,0,0,971,520.27Zm6.61,23.7a6.66,6.66,0,0,1-6.61,6.68H948.55a6.65,6.65,0,0,1-6.61-6.68V530.28a6.64,6.64,0,0,1,6.61-6.67H971a6.65,6.65,0,0,1,6.61,6.67Zm-8.26,15a1.66,1.66,0,0,1-1.66,1.67H951.85a1.67,1.67,0,0,1,0-3.34h15.87A1.66,1.66,0,0,1,969.38,559Zm-1.63-18.79-1.1-.67a7.2,7.2,0,0,0,0-4.31l1.1-.67a1.68,1.68,0,0,0,.56-2.29,1.64,1.64,0,0,0-2.26-.57l-1.13.68a7,7,0,0,0-3.31-1.89V529a1.66,1.66,0,1,0-3.31,0v1.45a7.07,7.07,0,0,0-3.38,1.95l-1.22-.74a1.65,1.65,0,0,0-2.27.57,1.67,1.67,0,0,0,.57,2.29l1.24.75a7.1,7.1,0,0,0,0,4.15l-1.24.75a1.67,1.67,0,0,0-.57,2.29,1.66,1.66,0,0,0,1.42.81,1.57,1.57,0,0,0,.85-.24l1.22-.74a7.07,7.07,0,0,0,3.38,1.95v1.45a1.66,1.66,0,1,0,3.31,0v-1.45a7,7,0,0,0,3.31-1.89l1.13.68a1.54,1.54,0,0,0,.84.24,1.64,1.64,0,0,0,1.42-.81,1.68,1.68,0,0,0-.56-2.29Zm-7.8.93a3.76,3.76,0,1,1,3.72-3.75A3.74,3.74,0,0,1,960,541.13Z"
+                  transform="translate(-933.63 -520.27)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="projectsTab" onclick="openPage('Project', this, 'rosybrown')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 42.32">
+            <path class="cls-2"
+                  d="M980.83,539.8v1.08a1.66,1.66,0,0,1-3.31,0V539.8a6.62,6.62,0,0,0-6.61-6.61H948.43a6.62,6.62,0,0,0-6.61,6.61v11.9a6.63,6.63,0,0,0,6.61,6.62h11a1.65,1.65,0,1,1,0,3.3h-11a9.93,9.93,0,0,1-9.92-9.92V539.8a9.92,9.92,0,0,1,9.92-9.91h22.48a9.92,9.92,0,0,1,9.92,9.91Zm-25.21,7.36a5.71,5.71,0,0,1-5.7-5.7,1.66,1.66,0,1,0-3.31,0,9,9,0,0,0,9,9h3.14a1.66,1.66,0,1,0,0-3.31Zm-2.15-20.5a1.65,1.65,0,0,0,1.66-1.65,2.4,2.4,0,0,1,2.39-2.4h4.3a2.41,2.41,0,0,1,2.4,2.4,1.65,1.65,0,1,0,3.3,0,5.7,5.7,0,0,0-5.7-5.7h-4.3a5.71,5.71,0,0,0-5.7,5.7A1.65,1.65,0,0,0,953.47,526.66Zm6.2,12a2.07,2.07,0,1,0,2.07,2.06A2.06,2.06,0,0,0,959.67,538.65Zm20.92,18.12a1.63,1.63,0,0,1-1.42.8,1.61,1.61,0,0,1-.84-.23l-1.13-.68a6.92,6.92,0,0,1-3.31,1.87V560a1.66,1.66,0,0,1-3.31,0v-1.44a7,7,0,0,1-3.38-1.93l-1.22.74a1.65,1.65,0,0,1-1.7-2.84l1.24-.74a7,7,0,0,1,0-4.11l-1.24-.74a1.65,1.65,0,0,1,1.7-2.84l1.22.74a7,7,0,0,1,3.38-1.93v-1.44a1.66,1.66,0,0,1,3.31,0v1.44a6.92,6.92,0,0,1,3.31,1.87l1.13-.68a1.65,1.65,0,0,1,1.7,2.84l-1.1.66a7.07,7.07,0,0,1,0,4.27l1.1.66a1.66,1.66,0,0,1,.56,2.27ZM976,551.7a3.72,3.72,0,1,0-3.72,3.72A3.72,3.72,0,0,0,976,551.7Z"
+                  transform="translate(-933.51 -519.31)"/>
+        </svg>
+    </button>
+    <button class="tablink" id="contactTab" onclick="openPage('Contact', this, 'yellow')">
+        <svg class="hoverSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+             viewBox="0 0 52.32 39.91">
+            <path class="cls-2"
+                  d="M980.83,530.79v8.13a1.66,1.66,0,1,1-3.31,0v-8.13a6.74,6.74,0,0,0-6.61-6.86H948.43a6.75,6.75,0,0,0-6.61,6.86v13.87a6.74,6.74,0,0,0,6.61,6.85h10.33a1.72,1.72,0,0,1,0,3.43H948.43a10.12,10.12,0,0,1-9.92-10.28V530.79a10.12,10.12,0,0,1,9.92-10.28h22.48a10.12,10.12,0,0,1,9.92,10.28Zm-7.18,3.76a1.74,1.74,0,0,0,.31-2.4,1.62,1.62,0,0,0-2.32-.33l-8,6.3a6.46,6.46,0,0,1-8,0l-7.88-6.23a1.62,1.62,0,0,0-2.32.32,1.75,1.75,0,0,0,.32,2.4l7.88,6.23a9.66,9.66,0,0,0,12,0ZM980,547.24l-1.1.69a7.6,7.6,0,0,1,0,4.43l1.1.68a1.75,1.75,0,0,1,.56,2.35,1.62,1.62,0,0,1-1.42.83,1.54,1.54,0,0,1-.84-.24l-1.13-.7a6.88,6.88,0,0,1-3.31,1.94v1.49a1.66,1.66,0,1,1-3.31,0v-1.49a7.08,7.08,0,0,1-3.38-2L966,556a1.57,1.57,0,0,1-.85.24,1.63,1.63,0,0,1-1.42-.83,1.74,1.74,0,0,1,.57-2.35l1.24-.77a7.44,7.44,0,0,1,0-4.25l-1.24-.78a1.74,1.74,0,0,1-.57-2.35,1.62,1.62,0,0,1,2.27-.58l1.22.76a7,7,0,0,1,3.38-2v-1.49a1.66,1.66,0,1,1,3.31,0v1.49A7,7,0,0,1,977.2,545l1.13-.69a1.61,1.61,0,0,1,2.26.58,1.75,1.75,0,0,1-.56,2.35Zm-4.08,2.9a3.72,3.72,0,1,0-3.72,3.86A3.79,3.79,0,0,0,976,550.14Z"
+                  transform="translate(-933.51 -520.51)"/>
+        </svg>
+    </button>
+    <div></div>
+</div>
+
+
+<!-------------------------------Start tabMobile---------------------------->
+<div class="zr__circle-carousel__container">
+    <!--   <div class="test"></div> -->
+    <ul class="zr__circle-carousel">
+        <li class="zr__circle-carousel__item before" onclick="openPageMobile('System', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 42.32">
+                    <path class="cls-2"
+                          d="M980.22,550.84a4.6,4.6,0,0,0-5.81-2.08,59.58,59.58,0,0,1-5.66,1.93,4.9,4.9,0,0,0-3.51-5.7,5.9,5.9,0,0,0-2.42-.14c-5.67.77-9-1.15-12-2.84-2-1.13-3.89-2.21-6.1-2.21a16.5,16.5,0,0,0-5.13.91,1.65,1.65,0,0,0,1,3.15,12.9,12.9,0,0,1,4.14-.75c1.34,0,2.72.78,4.47,1.78,2.62,1.48,6.05,3.44,11.17,3.44a21.8,21.8,0,0,0,2.92-.21,2.83,2.83,0,0,1,1.1,0,1.6,1.6,0,0,1,1.07,2.12,2.17,2.17,0,0,1-1.28,1.06,11.81,11.81,0,0,1-3.66.52,17.6,17.6,0,0,1-4.46-.52,1.65,1.65,0,1,0-.84,3.19,21.44,21.44,0,0,0,5.3.64h0c6.29,0,11.67-2,15.1-3.31a1.29,1.29,0,0,1,1.71.54,1.23,1.23,0,0,1-.51,1.65,31.93,31.93,0,0,1-16,4.27c-6.3,0-12.11-2.43-15.86-4.47a7.69,7.69,0,0,0-5.15-1,1.6,1.6,0,0,0-1.33,1.62,1.66,1.66,0,0,0,1.66,1.66,2.64,2.64,0,0,0,.42-.06,4.66,4.66,0,0,1,2.82.72c4.09,2.22,10.44,4.87,17.44,4.87a35.52,35.52,0,0,0,17.6-4.65,4.59,4.59,0,0,0,1.87-6.13Z"
+                          transform="translate(-933.41 -519.31)"/>
+                    <path class="cls-2"
+                          d="M952.7,535.52a1.64,1.64,0,0,0,1.43.82,1.58,1.58,0,0,0,.83-.23l1.48-.86a7.61,7.61,0,0,0,3.89,2.22v1.67a1.66,1.66,0,1,0,3.31,0v-1.67a7.58,7.58,0,0,0,3.83-2.15l1.36.79a1.59,1.59,0,0,0,.84.23,1.65,1.65,0,0,0,.83-3.08l-1.31-.77a7.52,7.52,0,0,0,.4-2.44,7.61,7.61,0,0,0-.4-2.44l1.32-.77a1.65,1.65,0,0,0-1.68-2.85l-1.36.8a7.6,7.6,0,0,0-3.83-2.16V521a1.66,1.66,0,0,0-3.31,0v1.67a7.59,7.59,0,0,0-3.89,2.23L955,524a1.65,1.65,0,1,0-1.67,2.85l1.46.86a7.65,7.65,0,0,0,0,4.7l-1.46.86a1.65,1.65,0,0,0-.59,2.26Zm9.29-9.77a4.3,4.3,0,1,1-4.3,4.3A4.31,4.31,0,0,1,962,525.75Z"
+                          transform="translate(-933.41 -519.31)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item before" onclick="openPageMobile('Video', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 53.05 43.05">
+                    <path class="cls-2"
+                          d="M966.45,518.94H953.13a14.89,14.89,0,0,0-14.86,14.87v13.32A14.88,14.88,0,0,0,953.13,562h13.32a14.88,14.88,0,0,0,14.86-14.86V533.81A14.88,14.88,0,0,0,966.45,518.94Zm11.44,28.19a11.44,11.44,0,0,1-11.44,11.43H953.13a11.43,11.43,0,0,1-11.43-11.43V533.81a11.44,11.44,0,0,1,11.43-11.44h13.32a11.45,11.45,0,0,1,11.44,11.44Z"
+                          transform="translate(-933.27 -518.94)"/>
+                    <path class="cls-2"
+                          d="M967.33,537.68l-10.2-6.81a3.36,3.36,0,0,0-5.22,2.79v13.62a3.34,3.34,0,0,0,1.77,3,3.38,3.38,0,0,0,1.6.39,3.25,3.25,0,0,0,1.85-.56l10.2-6.81a3.36,3.36,0,0,0,0-5.58Zm-2,2.77-10,6.7V533.79Z"
+                          transform="translate(-933.27 -518.94)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item focused-before" onclick="openPageMobile('About', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 42.32">
+                    <path class="cls-2"
+                          d="M964,561.62h-15.7a9.93,9.93,0,0,1-9.92-9.92V529.22a9.93,9.93,0,0,1,9.92-9.91h22.48a9.93,9.93,0,0,1,9.91,9.91v15.83a1.65,1.65,0,0,1-3.3,0V529.22a6.62,6.62,0,0,0-6.61-6.61H948.26a6.63,6.63,0,0,0-6.62,6.61V551.7a6.63,6.63,0,0,0,6.62,6.62H964a1.65,1.65,0,0,1,0,3.3Zm8.43-31.9a1.65,1.65,0,0,0-1.65-1.65H955.61a1.65,1.65,0,0,0,0,3.3h15.13A1.65,1.65,0,0,0,972.39,529.72Zm0,6.61a1.65,1.65,0,0,0-1.65-1.65H948.26a1.66,1.66,0,1,0,0,3.31h22.48A1.65,1.65,0,0,0,972.39,536.33Zm-16.53,6.61a1.65,1.65,0,0,0-1.65-1.65h-6a1.66,1.66,0,1,0,0,3.31h6A1.65,1.65,0,0,0,955.86,542.94Zm-9.26-13.38a2.07,2.07,0,1,0,2.07-2.07A2.07,2.07,0,0,0,946.6,529.56Zm32.29,30.3a6.05,6.05,0,0,0,0-8.54l-5.8-5.79a11.8,11.8,0,0,0-6.11-3.27l-4.68-.94a1.62,1.62,0,0,0-1.49.46,1.68,1.68,0,0,0-.46,1.49l.94,4.68a11.91,11.91,0,0,0,3.27,6.11l5.79,5.8a6.06,6.06,0,0,0,8.54,0ZM966.33,545.5a8.59,8.59,0,0,1,4.42,2.37l5.8,5.79a2.73,2.73,0,1,1-3.86,3.86l-5.79-5.8a8.66,8.66,0,0,1-2.37-4.42l-.45-2.25Z"
+                          transform="translate(-933.34 -519.31)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item focused" onclick="openPageMobile('Home', this)" id="defaultOpenMobile">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 42.32">
+
+                    <path id="Home_Ico-2" data-name="Home Ico-2" class="cls-2"
+                          d="M971.35,561.63H948.86a9.93,9.93,0,0,1-9.91-9.92V537.8a10,10,0,0,1,3.9-7.89l11.24-8.57a10,10,0,0,1,12,0l3.58,2.72V522a1.65,1.65,0,1,1,3.3,0v5.45a1.66,1.66,0,0,1-1.65,1.66,1.63,1.63,0,0,1-1-.35L964.12,524a6.65,6.65,0,0,0-8,0l-11.24,8.57a6.68,6.68,0,0,0-2.6,5.26v13.91a6.62,6.62,0,0,0,6.61,6.61h22.49a6.62,6.62,0,0,0,6.61-6.61V537.8a6.69,6.69,0,0,0-2.58-5.28,1.65,1.65,0,1,1,1.93-2.68l.08,0a10,10,0,0,1,3.87,7.91v13.91A9.93,9.93,0,0,1,971.35,561.63ZM956.8,538.4a2.07,2.07,0,1,0,2.06,2.07h0A2.07,2.07,0,0,0,956.8,538.4Zm8.68,2.07a2.07,2.07,0,1,1-2.07-2.07,2.07,2.07,0,0,1,2.07,2.07Zm-6.62,6.61A2.07,2.07,0,1,1,956.8,545a2.07,2.07,0,0,1,2.06,2.07Zm6.62,0a2.07,2.07,0,1,1-2.07-2.07,2.07,2.07,0,0,1,2.07,2.07Z"
+                          transform="translate(-933.95 -519.31)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item focused-after" onclick="openPageMobile('Services', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 40.39">
+                    <path class="cls-2"
+                          d="M971,520.27H948.55a10,10,0,0,0-9.92,10V544a10,10,0,0,0,9.92,10H971A10,10,0,0,0,981,544V530.28A10,10,0,0,0,971,520.27Zm6.61,23.7a6.66,6.66,0,0,1-6.61,6.68H948.55a6.65,6.65,0,0,1-6.61-6.68V530.28a6.64,6.64,0,0,1,6.61-6.67H971a6.65,6.65,0,0,1,6.61,6.67Zm-8.26,15a1.66,1.66,0,0,1-1.66,1.67H951.85a1.67,1.67,0,0,1,0-3.34h15.87A1.66,1.66,0,0,1,969.38,559Zm-1.63-18.79-1.1-.67a7.2,7.2,0,0,0,0-4.31l1.1-.67a1.68,1.68,0,0,0,.56-2.29,1.64,1.64,0,0,0-2.26-.57l-1.13.68a7,7,0,0,0-3.31-1.89V529a1.66,1.66,0,1,0-3.31,0v1.45a7.07,7.07,0,0,0-3.38,1.95l-1.22-.74a1.65,1.65,0,0,0-2.27.57,1.67,1.67,0,0,0,.57,2.29l1.24.75a7.1,7.1,0,0,0,0,4.15l-1.24.75a1.67,1.67,0,0,0-.57,2.29,1.66,1.66,0,0,0,1.42.81,1.57,1.57,0,0,0,.85-.24l1.22-.74a7.07,7.07,0,0,0,3.38,1.95v1.45a1.66,1.66,0,1,0,3.31,0v-1.45a7,7,0,0,0,3.31-1.89l1.13.68a1.54,1.54,0,0,0,.84.24,1.64,1.64,0,0,0,1.42-.81,1.68,1.68,0,0,0-.56-2.29Zm-7.8.93a3.76,3.76,0,1,1,3.72-3.75A3.74,3.74,0,0,1,960,541.13Z"
+                          transform="translate(-933.63 -520.27)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item after" onclick="openPageMobile('Project', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 42.32">
+                    <path class="cls-2"
+                          d="M980.83,539.8v1.08a1.66,1.66,0,0,1-3.31,0V539.8a6.62,6.62,0,0,0-6.61-6.61H948.43a6.62,6.62,0,0,0-6.61,6.61v11.9a6.63,6.63,0,0,0,6.61,6.62h11a1.65,1.65,0,1,1,0,3.3h-11a9.93,9.93,0,0,1-9.92-9.92V539.8a9.92,9.92,0,0,1,9.92-9.91h22.48a9.92,9.92,0,0,1,9.92,9.91Zm-25.21,7.36a5.71,5.71,0,0,1-5.7-5.7,1.66,1.66,0,1,0-3.31,0,9,9,0,0,0,9,9h3.14a1.66,1.66,0,1,0,0-3.31Zm-2.15-20.5a1.65,1.65,0,0,0,1.66-1.65,2.4,2.4,0,0,1,2.39-2.4h4.3a2.41,2.41,0,0,1,2.4,2.4,1.65,1.65,0,1,0,3.3,0,5.7,5.7,0,0,0-5.7-5.7h-4.3a5.71,5.71,0,0,0-5.7,5.7A1.65,1.65,0,0,0,953.47,526.66Zm6.2,12a2.07,2.07,0,1,0,2.07,2.06A2.06,2.06,0,0,0,959.67,538.65Zm20.92,18.12a1.63,1.63,0,0,1-1.42.8,1.61,1.61,0,0,1-.84-.23l-1.13-.68a6.92,6.92,0,0,1-3.31,1.87V560a1.66,1.66,0,0,1-3.31,0v-1.44a7,7,0,0,1-3.38-1.93l-1.22.74a1.65,1.65,0,0,1-1.7-2.84l1.24-.74a7,7,0,0,1,0-4.11l-1.24-.74a1.65,1.65,0,0,1,1.7-2.84l1.22.74a7,7,0,0,1,3.38-1.93v-1.44a1.66,1.66,0,0,1,3.31,0v1.44a6.92,6.92,0,0,1,3.31,1.87l1.13-.68a1.65,1.65,0,0,1,1.7,2.84l-1.1.66a7.07,7.07,0,0,1,0,4.27l1.1.66a1.66,1.66,0,0,1,.56,2.27ZM976,551.7a3.72,3.72,0,1,0-3.72,3.72A3.72,3.72,0,0,0,976,551.7Z"
+                          transform="translate(-933.51 -519.31)"/>
+                </svg>
+            </button>
+        </li>
+        <li class="zr__circle-carousel__item after" onclick="openPageMobile('Contact', this)">
+            <button class="tablinkPopUp">
+                <svg class="mobileTabSvg" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                     viewBox="0 0 52.32 39.91">
+                    <path class="cls-2"
+                          d="M980.83,530.79v8.13a1.66,1.66,0,1,1-3.31,0v-8.13a6.74,6.74,0,0,0-6.61-6.86H948.43a6.75,6.75,0,0,0-6.61,6.86v13.87a6.74,6.74,0,0,0,6.61,6.85h10.33a1.72,1.72,0,0,1,0,3.43H948.43a10.12,10.12,0,0,1-9.92-10.28V530.79a10.12,10.12,0,0,1,9.92-10.28h22.48a10.12,10.12,0,0,1,9.92,10.28Zm-7.18,3.76a1.74,1.74,0,0,0,.31-2.4,1.62,1.62,0,0,0-2.32-.33l-8,6.3a6.46,6.46,0,0,1-8,0l-7.88-6.23a1.62,1.62,0,0,0-2.32.32,1.75,1.75,0,0,0,.32,2.4l7.88,6.23a9.66,9.66,0,0,0,12,0ZM980,547.24l-1.1.69a7.6,7.6,0,0,1,0,4.43l1.1.68a1.75,1.75,0,0,1,.56,2.35,1.62,1.62,0,0,1-1.42.83,1.54,1.54,0,0,1-.84-.24l-1.13-.7a6.88,6.88,0,0,1-3.31,1.94v1.49a1.66,1.66,0,1,1-3.31,0v-1.49a7.08,7.08,0,0,1-3.38-2L966,556a1.57,1.57,0,0,1-.85.24,1.63,1.63,0,0,1-1.42-.83,1.74,1.74,0,0,1,.57-2.35l1.24-.77a7.44,7.44,0,0,1,0-4.25l-1.24-.78a1.74,1.74,0,0,1-.57-2.35,1.62,1.62,0,0,1,2.27-.58l1.22.76a7,7,0,0,1,3.38-2v-1.49a1.66,1.66,0,1,1,3.31,0v1.49A7,7,0,0,1,977.2,545l1.13-.69a1.61,1.61,0,0,1,2.26.58,1.75,1.75,0,0,1-.56,2.35Zm-4.08,2.9a3.72,3.72,0,1,0-3.72,3.86A3.79,3.79,0,0,0,976,550.14Z"
+                          transform="translate(-933.51 -520.51)"/>
+                </svg>
+            </button>
+        </li>
+    </ul>
+</div>
+<!-------------------------------End tabMobile---------------------------->
+
+<!-------------------------End Navbar------------------------------------------------>
+
+
+<!-------------------------------Start Home------------------------------------------>
+
+<div id="Home" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent bounce-1">
+
+            <div class="circleLogo1 bounce-1 center" style="background-image: url('./img/SVG/باکس-لوگو.svg');">
+                <div class="circleLogo2 center"
+                     style=" background-image: url('./img/SVG/باکس-وسط-سایت.svg');background-size: cover">
+                    <div class="circleLogo3 center"
+                         style="background-image: url('./img/SVG/لوگوی-وسط-سایت.svg');background-size: contain"></div>
+                </div>
+            </div>
+            <div class="logoLines center" style="background-image: url('./img/SVG/خط‌های-اتصال-لوگو.svg')">
+
+            </div>
+
+
+            <div class="companyLogos" style="display: grid;grid-template-rows:1fr 1fr 1fr 1fr;">
+                <div class="companyLogoDiv center" style="display: grid;grid-template-columns: 1fr 4fr;">
+                    <div class="companyLogoItems center" style="align-content: center;"><img
+                            class="companyLogoItemsImg"
+                            src="./img/SVG/لوگوی-شرکت-اندشه-پژوهان.svg"
+                            alt=""></div>
+                    <div class="companyLogoItemsP center" style=""><p class="companyLogoItemsP2">شرکت اندیشه پژوهان
+                        تدبیر پایا</p></div>
+                </div>
+                <div class="companyLogoDiv center" style="display: grid;grid-template-columns: 1fr 4fr;">
+                    <div class="companyLogoItems center" style="align-content: center"><img class="companyLogoItemsImg"
+                                                                                            src="./img/SVG/لوگوی-شرکت-رضوان-سیستم.svg"
+                                                                                            alt=""></div>
+                    <div class="companyLogoItemsP"><p class="companyLogoItemsP2">شرکت رضوان سیستم شرق</p></div>
+                </div>
+                <div class="companyLogoDiv center" style="display: grid;grid-template-columns: 1fr 4fr;">
+                    <div class="companyLogoItems center" style="align-content: center"><img class="companyLogoItemsImg"
+                                                                                            src="./img/SVG/لوگوی-شرکت-پردیس-مدیریت.svg"
+                                                                                            alt=""></div>
+                    <div class="companyLogoItemsP"><p class="companyLogoItemsP2">شرکت پردیس مدیریت</p></div>
+                </div>
+                <div class="companyLogoDiv center" style="display: grid;grid-template-columns: 1fr 4fr;">
+                    <div class="companyLogoItems center" style="align-content: center"><img class="companyLogoItemsImg"
+                                                                                            src="./img/SVG/لوگوی-موسسه-آفتاب.svg"
+                                                                                            alt=""></div>
+                    <div class="companyLogoItemsP"><p class="companyLogoItemsP2">مؤسسه هنری آفتاب</p></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!---------------------------------Start CompanyLogos in Tablet-------------->
+
+        <div class="companyLogoItemsTablet"
+             style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr;justify-content: center">
+
+            <div class="companyLogoItemsTablet2 center" style="align-content: center;"><img
+                    class="companyLogoItemsImgTablet"
+                    src="./img/SVG/لوگوی-شرکت-اندشه-پژوهان.svg"
+                    alt=""></div>
+            <div class="companyLogoItemsTablet2 center" style="align-content: center"><img
+                    class="companyLogoItemsImgTablet"
+                    src="./img/SVG/لوگوی-شرکت-رضوان-سیستم.svg"
+                    alt=""></div>
+            <div class="companyLogoItemsTablet2 center" style="align-content: center"><img
+                    class="companyLogoItemsImgTablet"
+                    src="./img/SVG/لوگوی-شرکت-پردیس-مدیریت.svg"
+                    alt=""></div>
+            <div class="companyLogoItemsTablet2 center" style="align-content: center"><img
+                    class="companyLogoItemsImgTablet"
+                    src="./img/SVG/لوگوی-موسسه-آفتاب.svg"
+                    alt=""></div>
+            <div class="companyLogoItemsTabletP">شرکت ادیشه پژوهان</div>
+            <div class="companyLogoItemsTabletP">شرکت رضوان سیستم</div>
+            <div class="companyLogoItemsTabletP">شرکت پردیس مدیریت</div>
+            <div class="companyLogoItemsTabletP2">مؤسسه آفتاب</div>
+
+        </div>
+        <!---------------------------------End CompanyLogos in Tablet---------------->
+
+        <!--End Main Logo & Attachments-->
+
+
+    </section>
+</div>
+
+<!---------------------------------End Home------------------------------------------>
+
+
+<!-------------------------------Start Video----------------------------------------->
+
+<div id="Video" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent ">
+            <div class="glow glowDiv"></div>
+
+
+            <div class="circleLogoَVideo center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+            </div>
+            <div class="mobileDiv center">
+                <video src="./vids/تدبیر.mp4" controls
+                       class="videoTag"></video>
+            </div>
+        </div>
+        <!--End Main Logo & Attachments-->
+
+    </section>
+</div>
+
+<!---------------------------------End Video----------------------------------------->
+
+
+<!-------------------------------Start About----------------------------------------->
+
+<div id="About" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <!--==========Start SlidShow==========-->
+
+
+        <div class="AM-slideshow-container">
+            <div class="mySlides1">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto"
+                                                             src="./img/Edited%20img/پیکتو-ما-که-هستیم2.svg"
+                                                             alt="who are we??"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP1">ما که هستیم؟</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox"><p class="AM-slideDivTextBoxP1">ما یک تیم حل مسئله جوان و متخصص در
+                        رشته های
+                        مدیریت، مهندسی صنایع، فناوری
+                        اطلاعات و اقتصاد هستیم، که با شناخت و ارزیابی مسائل و چالش های سازمان ها، صنایع و کسب و کارها؛ و
+                        ارائه راهکارهای متناسب؛ به تحول و بهره وری آن ها کمک می کنیم.<br/>
+                        در این خصوص، طی سالیان گذشته،
+                        سازمان های عمومی، دولتی و صنایع کسب و کارهای مختلف را مورد بررسی و تحلیل قرار داده ایم و بر اساس
+                        نیازهای آن ها،راهکارهای خود را در راستای بهینه سازی منابع و یا توسعه کسب و کار آن ها، ارائه داده
+                        ایم.<br/>
+                        نتیجه فعالیت های ما، در طراحی، استقرار و بهسازی نظام های تحلیلی، برنامه ریزی راهبردی، فرآیندها و
+                        سیستم های تخصصی و مدیریتی، فناوری اطلاعات، تشکیلات و منابع انسانی، مدیریت عملکرد، ارزیابی توسعه
+                        شایستگی ها و آموزش های تعاملی مؤثر بوده است.</p></div>
+
+                    <div class="AM-slideDivMore"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides1">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto"
+                                                             src="./img/Edited%20img/پیکتو-چشم‌انداز-ما2.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP1">چشم انداز ما</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.</p></div>
+
+                    <div class="AM-slideDivMore"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides1">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto"
+                                                             src="./img/Edited%20img/پیکتو-مزیت‌های-ما2.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP1">مزیت های ما</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما.</p></div>
+
+                    <div class="AM-slideDivMore"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides1">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto"
+                                                             src="./img/Edited%20img/پیکتو-بایدها-و-نبایدها2.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP1">باید ها و نباید ها</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن
+                        آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع
+                        باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی
+                        درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها
+                        و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در
+                        رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.</p></div>
+
+                    <div class="AM-slideDivMore"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a class="prev" onclick="plusSlides('left',-1, 0)">&#10095;</a>
+        <a class="next" onclick="plusSlides('right',1, 0)">&#10094;</a>
+
+
+        <!--==========End SlidShow============-->
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent ">
+            <div class="glow glowDiv"></div>
+
+
+            <!--++++++++++++++++++++Start Rectangle Yellow Div++++++++++++++++++++-->
+
+
+
+            <!--++++++++++++++++++++End Rectangle Yellow Div++++++++++++++++++++++-->
+
+
+            <div class="circleLogoَAbout center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                <div class="circleLogoَAboutTitleBox center"
+                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <div class="AboutTitleBoxPicto">
+                        <img class="circleLogoAboutImg" id="maimg" src="./img/Edited%20img/پیکتو-ما-که-هستیم2.svg"
+                             alt="">
+                        <img class="circleLogoAboutImg" id=cheshmimg" src="./img/Edited%20img/پیکتو-چشم‌انداز-ما2.svg"
+                             alt="">
+                        <img class="circleLogoAboutImg" id="maziatimg" src="./img/Edited%20img/پیکتو-مزیت‌های-ما2.svg"
+                             alt="">
+                        <img class="circleLogoAboutImg" id="bayadimg"
+                             src="./img/Edited%20img/پیکتو-بایدها-و-نبایدها2.svg" alt="">
+                    </div>
+                    <p class="circleLogoَAboutP" id="ma">ما که هستیم؟</p>
+                    <p class="circleLogoَAboutP" id="cheshm">چشم انداز ما</p>
+                    <p class="circleLogoَAboutP" id="maziat">مزیت های ما</p>
+                    <p class="circleLogoَAboutP" id="bayad">باید ها و نباید ها</p>
+                </div>
+                <div class="circleLogoَAboutTextBox center"
+                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p id="matext" class="AboutMainText">ما یک تیم حل مسئله جوان و متخصص در رشته های
+                        مدیریت، مهندسی صنایع، فناوری
+                        اطلاعات و اقتصاد هستیم، که با شناخت و ارزیابی مسائل و چالش های سازمان ها، صنایع و کسب و کارها؛ و
+                        ارائه راهکارهای متناسب؛ به تحول و بهره وری آن ها کمک می کنیم.<br/>
+                        در این خصوص، طی سالیان گذشته،
+                        سازمان های عمومی، دولتی و صنایع کسب و کارهای مختلف را مورد بررسی و تحلیل قرار داده ایم و بر اساس
+                        نیازهای آن ها،راهکارهای خود را در راستای بهینه سازی منابع و یا توسعه کسب و کار آن ها، ارائه داده
+                        ایم.<br/>
+                        نتیجه فعالیت های ما، در طراحی، استقرار و بهسازی نظام های تحلیلی، برنامه ریزی راهبردی، فرآیندها و
+                        سیستم های تخصصی و مدیریتی، فناوری اطلاعات، تشکیلات و منابع انسانی، مدیریت عملکرد، ارزیابی توسعه
+                        شایستگی ها و آموزش های تعاملی مؤثر بوده است. </p>
+                    <p id="cheshmtext" class="AboutMainText">
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                    </p>
+                    <p id="maziattext" class="AboutMainText">
+                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما.
+                    </p>
+                    <p id="bayadtext" class="AboutMainText">
+                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن
+                        آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع
+                        باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی
+                        درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها
+                        و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در
+                        رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                    </p>
+                </div>
+            </div>
+            <div class="more-products-nav">
+                <div class="vertical-slider">
+                    <div class="vs-slides">
+                        <div class="vs-slides-inner">
+                            <div class="vs-products-outer">
+                                <div class="vs-products clearfix vs-row-1 active" data-row-num="1">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesAbout"
+                                                    onclick="AboutTab('ma','matext','maimg', this)"
+                                                    id="defaultabout">ما که هستیم؟
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+                                            <img class="tabOptionImg3" src="./img/SVG/پیکتو-ما-که-هستیم.svg">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesAbout"
+                                                    onclick="AboutTab('cheshm','cheshmtext','cheshmimg', this)">چشم
+                                                انداز ما
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg3" src="./img/SVG/پیکتو-چشم‌انداز-ما.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesAbout"
+                                                    onclick="AboutTab('maziat','maziattext','maziatimg', this)">
+                                                مزیت های ما
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg3" src="./img/SVG/پیکتو-مزیت‌های-ما.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesAbout"
+                                                    onclick="AboutTab('bayad','bayadtext','bayadimg', this)">
+                                                باید ها و نباید ها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+                                            <img class="tabOptionImg3" src="./img/SVG/پیکتو-بایدها-و-نبایدها.svg">
+                                        </div>
+                                    </a>
+                                </div><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-2" data-row-num="2">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('tahlil','tahliltext','tahlilimg', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('behsazy','behsazytext','behsazyimg', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div>-->
+                                <!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-3" data-row-num="3"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 6</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 2</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 3</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-4" data-row-num="4"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 4</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 5</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 6</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-5" data-row-num="5"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 7</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 8</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 9</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-6" data-row-num="6"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 10</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 11</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;-->
+                            </div><!-- .vs-products-outer -->
+                            <div class="vs-controls">
+                                <div class="vs-control up deactivate"><i></i></div>
+                                <div class="vs-control down"></div>
+                            </div>
+                        </div>
+                    </div><!-- .vs-slides -->
+                </div><!-- .vertical-slider -->
+            </div>
+        </div>
+        <!--End Main Logo & Attachments-->
+
+        <!------------------Start Content Carousel--------------------------------->
+
+        <!--<div class="hero">
+            <div class="hero__inner">
+
+                <div class="swiper-container hero__caption max-width js&#45;&#45;hero-caption">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-inner">
+                                <img src="./img/SVG/پیکتو-ما-که-هستیم.svg" class="imgHero" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-inner">
+                                <img src="./img/SVG/پیکتو-چشم‌انداز-ما.svg" class="imgHero" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-inner">
+                                <img src="./img/SVG/پیکتو-مزیت‌های-ما.svg" class="imgHero" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-inner">
+                                <img src="./img/SVG/پیکتو-بایدها-و-نبایدها.svg" class="imgHero" alt="">
+                            </div>
+                        </div>
+                        &lt;!&ndash;
+
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner">
+                                                <div class="hero__content">
+                                                    <div class="hero__body">
+                                                        <h1 class="hero__title headline-border">
+                                                            #5 WHO Consultation on New Tuberculosis Vaccine Research and Development
+                                                        </h1>
+                                                        <div class="hero__text">
+                                                            <p>VPM will be present at the WHO Consultation on New Tuberculosis Vaccine Research
+                                                                and Development in Geneva, Switzerland from October 3-4, 2017.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hero__footer">
+                                                        <a class="mdc-button mdc-button&#45;&#45;raised mdc-button&#45;&#45;dense" href="/en/team/career/">
+                                                            Apply now
+                                                            <i class="ico ico-chevron-right ico&#45;&#45;base ml-10" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner">
+                                                <div class="hero__content">
+                                                    <div class="hero__body">
+                                                        <h1 class="hero__title headline-border">
+                                                            #6 TBVI Symposium 2017
+                                                        </h1>
+                                                        <div class="hero__text">
+                                                            <p>VPM is going to present on the status of the VPM1002 TB Vaccine at the TBVI
+                                                                symposium in Les Diablerets, Switzerland on from Feb 1 to 2 2017.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hero__footer">
+                                                        <a class="mdc-button mdc-button&#45;&#45;raised mdc-button&#45;&#45;dense" href="/en/team/career/">
+                                                            Apply now
+                                                            <i class="ico ico-chevron-right ico&#45;&#45;base ml-10" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                        &ndash;&gt;
+
+                    </div>
+                    <div class="swiper-button-wrapper">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+                <div class="swiper-container hero__media js&#45;&#45;hero-media swiper-container-horizontal">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hero__media__image">
+                            <div class="circleLogoَAboutcc center"
+                                 style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                                <div class="circleLogoَAboutTitleBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <div class="AboutTitleBoxPictocc">
+                                        <img class="circleLogoAboutImgcc"
+                                             src="./img/SVG/پیکتو-ما-که-هستیم.svg"
+                                             alt="">
+                                    </div>
+                                    <p class="circleLogoَAboutPcc">ما که هستیم؟</p>
+
+                                </div>
+                                <div class="circleLogoَAboutTextBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <p class="AboutMainTextcc">ما یک تیم حل مسئله جوان و متخصص در رشته های
+                                        مدیریت، مهندسی صنایع، فناوری
+                                        اطلاعات و اقتصاد هستیم، که با شناخت و ارزیابی مسائل و چالش های سازمان ها، صنایع و کسب و
+                                        کارها؛ و
+                                        ارائه راهکارهای متناسب؛ به تحول و بهره وری آن ها کمک می کنیم.<br/>
+                                        در این خصوص، طی سالیان گذشته،
+                                        سازمان های عمومی، دولتی و صنایع کسب و کارهای مختلف را مورد بررسی و تحلیل قرار داده ایم و
+                                        بر اساس
+                                        نیازهای آن ها،راهکارهای خود را در راستای بهینه سازی منابع و یا توسعه کسب و کار آن ها،
+                                        ارائه داده
+                                        ایم.<br/>
+                                        نتیجه فعالیت های ما، در طراحی، استقرار و بهسازی نظام های تحلیلی، برنامه ریزی راهبردی،
+                                        فرآیندها و
+                                        سیستم های تخصصی و مدیریتی، فناوری اطلاعات، تشکیلات و منابع انسانی، مدیریت عملکرد،
+                                        ارزیابی توسعه
+                                        شایستگی ها و آموزش های تعاملی مؤثر بوده است. </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide hero__media__image">
+                            <div class="circleLogoَAboutcc center"
+                                 style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                                <div class="circleLogoَAboutTitleBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <div class="AboutTitleBoxPictocc">
+
+                                        <img class="circleLogoAboutImgcc"
+                                             src="./img/SVG/پیکتو-چشم‌انداز-ما.svg"
+                                             alt="">
+
+                                    </div>
+
+                                    <p class="circleLogoَAboutPcc">چشم انداز ما</p>
+
+
+                                </div>
+                                <div class="circleLogoَAboutTextBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+
+                                    <p class="AboutMainTextcc">
+                                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با
+                                        موضوع
+                                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره
+                                        ما در
+                                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن
+                                        آزمایشی
+                                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم
+                                        انداز ما.
+                                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با
+                                        موضوع
+                                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره
+                                        ما در
+                                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن
+                                        آزمایشی
+                                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم
+                                        انداز ما.
+                                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide hero__media__image">
+                            <div class="circleLogoَAboutcc center"
+                                 style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                                <div class="circleLogoَAboutTitleBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <div class="AboutTitleBoxPictocc">
+
+                                        <img class="circleLogoAboutImgcc"
+                                             src="./img/SVG/پیکتو-مزیت‌های-ما.svg"
+                                             alt="">
+                                    </div>
+
+                                    <p class="circleLogoَAboutPcc">مزیت های ما</p>
+                                </div>
+                                <div class="circleLogoَAboutTextBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <p class="AboutMainTextcc">
+                                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با
+                                        موضوع
+                                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                                        در رابطه
+                                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی
+                                        درباره ما
+                                        در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن
+                                        آزمایشی
+                                        درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت
+                                        های ما.
+                                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با
+                                        موضوع
+                                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                                        در رابطه
+                                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی
+                                        درباره ما
+                                        در رابطه با موضوع مزیت های ما.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide hero__media__image">
+                            <div class="circleLogoَAboutcc center"
+                                 style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                                <div class="circleLogoَAboutTitleBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                                    <div class="AboutTitleBoxPictocc">
+
+                                        <img class="circleLogoAboutImgcc"
+                                             src="./img/SVG/پیکتو-بایدها-و-نبایدها.svg"
+                                             alt="">
+                                    </div>
+
+                                    <p class="circleLogoَAboutPcc">باید ها و نباید ها</p>
+                                </div>
+                                <div class="circleLogoَAboutTextBoxcc center"
+                                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+
+                                    <p class="AboutMainTextcc">
+                                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در
+                                        رابطه با
+                                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                                        متن
+                                        آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه
+                                        با موضوع
+                                        باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن
+                                        آزمایشی
+                                        درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع
+                                        باید ها
+                                        و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی
+                                        درباره ما در
+                                        رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و
+                                        نباید ها.
+                                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در
+                                        رابطه با
+                                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        &lt;!&ndash; <div class="swiper-slide hero__media__image"
+                              style="background-image: url(https://picsum.photos/1920/1000/?image=5);">
+
+                         </div>
+                         <div class="swiper-slide hero__media__image"
+                              style="background-image: url(https://picsum.photos/1920/1000/?image=6);">
+
+                         </div>&ndash;&gt;
+                    </div>
+                </div>
+
+            </div>
+        </div>-->
+
+        <!------------------End Content Carousel--------------------------------->
+
+    </section>
+
+</div>
+
+<!---------------------------------End About----------------------------------------->
+
+
+<!-------------------------------Start System---------------------------------------->
+
+<div id="System" class="tabcontent">
+    <section class="center mainSection">
+        <!--==========Start SlidShow==========-->
+
+
+        <div class="AM-slideshow-container">
+            <div class="mySlides4">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Sys">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Sys">عنوان آزمایشی سیستم ها 1</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox4"><p class="AM-slideDivTextBoxP1">ما یک تیم حل مسئله جوان و متخصص در
+                        رشته های
+                        مدیریت، مهندسی صنایع، فناوری
+                        اطلاعات و اقتصاد هستیم، که با شناخت و ارزیابی مسائل و چالش های سازمان ها، صنایع و کسب و کارها؛ و
+                        ارائه راهکارهای متناسب؛ به تحول و بهره وری آن ها کمک می کنیم.<br/>
+                        در این خصوص، طی سالیان گذشته،
+                        سازمان های عمومی، دولتی و صنایع کسب و کارهای مختلف را مورد بررسی و تحلیل قرار داده ایم و بر اساس
+                        نیازهای آن ها،راهکارهای خود را در راستای بهینه سازی منابع و یا توسعه کسب و کار آن ها، ارائه داده
+                        ایم.<br/>
+                        نتیجه فعالیت های ما، در طراحی، استقرار و بهسازی نظام های تحلیلی، برنامه ریزی راهبردی، فرآیندها و
+                        سیستم های تخصصی و مدیریتی، فناوری اطلاعات، تشکیلات و منابع انسانی، مدیریت عملکرد، ارزیابی توسعه
+                        شایستگی ها و آموزش های تعاملی مؤثر بوده است.</p></div>
+
+                    <div class="AM-slideDivMore4"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides4">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Sys">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Sys">عنوان آزمایشی سیستم ها 2</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox4"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در
+                        رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع چشم انداز ما. متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع چشم انداز ما.</p></div>
+
+                    <div class="AM-slideDivMore4"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides4">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Sys">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Sys">عنوان آزمایشی سیستم ها 3</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox4"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی
+                        درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما.
+                        متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع
+                        مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه
+                        با موضوع مزیت های ما. متن آزمایشی درباره ما در رابطه با موضوع مزیت های ما. متن آزمایشی درباره ما
+                        در رابطه با موضوع مزیت های ما.</p></div>
+
+                    <div class="AM-slideDivMore4"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides4">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Sys">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Sys">عنوان آزمایشی سیستم ها 4</p>
+                        </div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox4"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن
+                        آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع
+                        باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی
+                        درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها
+                        و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در
+                        رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.
+                        متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با
+                        موضوع باید ها و نباید ها. متن آزمایشی درباره ما در رابطه با موضوع باید ها و نباید ها.</p></div>
+
+                    <div class="AM-slideDivMore4"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a class="prev" onclick="plusSlides4('left',-1, 0)">&#10095;</a>
+        <a class="next" onclick="plusSlides4('right',1, 0)">&#10094;</a>
+
+
+        <!--==========End SlidShow============-->
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent ">
+            <div class="glow glowDiv"></div>
+
+
+            <!--++++++++++++++++++++Start Rectangle Yellow Div++++++++++++++++++++-->
+
+
+            <!--++++++++++++++++++++End Rectangle Yellow Div++++++++++++++++++++++-->
+
+            <div class="circleLogoَProjects center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                <div class="circleLogoَProjectsTitleBox center"
+                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p id="pSystem1" class="circleLogoَSystemP">
+                        عنوان آزمایشی سیستم ها 1
+                    </p>
+                    <p id="pSystem2" class="circleLogoَSystemP">
+                        عنوان آزمایشی سیستم ها 2
+                    </p>
+                    <p id="pSystem3" class="circleLogoَSystemP">
+                        عنوان آزمایشی سیستم ها 3
+                    </p>
+                    <p id="pSystem4" class="circleLogoَSystemP">
+                        عنوان آزمایشی سیستم ها 4
+                    </p>
+                </div>
+                <div class="circleLogoَProjectsTextBox center"
+                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p id="textsystem1" class="َSystemMainText">
+                        متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی
+                        سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در
+                        رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با
+                        موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی
+                        برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای
+                        جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری
+                        محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و
+                        عنوان های دینامیک.
+                    </p>
+                    <p id="textsystem2" class="َSystemMainText">
+                        متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی
+                        سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در
+                        رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با
+                        موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی
+                        برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای
+                        جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری
+                        محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و
+                        عنوان های دینامیک.
+                    </p>
+                    <p id="textsystem3" class="َSystemMainText">
+                        متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی
+                        سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در
+                        رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با
+                        موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی
+                        برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای
+                        جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری
+                        محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و
+                        عنوان های دینامیک.
+                    </p>
+                    <p id="textsystem4" class="َSystemMainText">
+                        متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی
+                        سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در
+                        رابطه با موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با
+                        موضوع اصلی برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی
+                        برای جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای
+                        جایگذاری محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری
+                        محتوا و عنوان های دینامیک. متن آزمایشی سیستم ها در رابطه با موضوع اصلی برای جایگذاری محتوا و
+                        عنوان های دینامیک.
+                    </p>
+                </div>
+                <div class="moreDive">
+                    <a href="#" class="aTagsTab"><p class="ServicesMoreText">ادامه توضیحات</p></a>
+                </div>
+            </div>
+            <div class="more-products-nav">
+                <div class="vertical-slider">
+                    <div class="vs-slides">
+                        <div class="vs-slides-inner">
+                            <div class="vs-products-outer">
+                                <div class="vs-products clearfix vs-row-1 active" data-row-num="1">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="SystemTab('pSystem1','textsystem1', this)"
+                                                    id="defaultsystem">تعالی سازمانی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1"
+                                                 src="./img/Edited%20img/پیکتو-خدمات-ما-تعالی2.svg">
+
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="SystemTab('pSystem2','textsystem2', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="SystemTab('pSystem3','textsystem3', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="SystemTab('pSystem4','textsystem4', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-2" data-row-num="2">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('tahlil','tahliltext','tahlilimg', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('behsazy','behsazytext','behsazyimg', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div>--><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-3" data-row-num="3"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 6</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 2</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 3</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-4" data-row-num="4"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 4</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 5</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 6</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-5" data-row-num="5"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 7</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 8</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 9</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-6" data-row-num="6"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 10</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 11</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;-->
+                            </div><!-- .vs-products-outer -->
+                            <div class="vs-controls">
+                                <div class="vs-control up deactivate"><i></i></div>
+                                <div class="vs-control down"><i></i></div>
+                            </div>
+                        </div>
+                    </div><!-- .vs-slides -->
+                </div><!-- .vertical-slider -->
+            </div>
+        </div>
+        <!--End Main Logo & Attachments-->
+    </section>
+</div>
+
+<!---------------------------------End System---------------------------------------->
+
+
+<!-------------------------------Start Services-------------------------------------->
+
+<div id="Services" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <!--==========Start SlidShow==========-->
+
+
+        <div class="AM-slideshow-container">
+            <div class="mySlides2">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox2">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto"
+                                                             src="./img/SVG/پیکتو-خدمات-ما-تعالی.svg"
+                                                             alt="خدمات-ما-تعالی-پیکتو"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP1">تعالی سازمانی</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox2"><p class="AM-slideDivTextBoxP1">مدل های تعالی سازمانی یا سرآمدی کسب
+                        و
+                        کار ، به عنوان ابزاری قوی برای
+                        سنجش میزان استقرار سیستم ها
+                        در سازمان های مختلف به کار گرفته می شود. با به کارگیری این مدل ها، ضمن این که یک سازمان می تواند
+                        میزان موفقیت خود را در اجرای برنامه های بهبود در مقاطع زمانی مختلف مورد ارزیابی قرار دهد، امکان
+                        مقایسه عملکرد خود با سایر سازمان ها و به ویژه با بهترین آن ها را خواهد داشت .<br>حرکت در مسیر
+                        تعالی و سرآمدی برای سازمان های امروزی یک نیاز و ضرورت اجتناب ناپذیر است...</p></div>
+
+                    <div class="AM-slideDivMore2"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides2">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox2">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto-S-tahlil"
+                                                             src="./img/Edited%20img/پیکتو-خدمات-ما-تحلیل.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-S-tahlil">تحلیل و عارضه یابی
+                            سازمان و کسب و کار</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox2"><p class="AM-slideDivTextBoxP1">متن آزمایشی درباره ما در رابطه
+                        بامتن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با
+                        موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی
+                        سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن
+                        آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع
+                        تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و
+                        کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار</p></div>
+
+                    <div class="AM-slideDivMore2"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides2">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox2">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto-S-barname"
+                                                             src="./img/Edited%20img/پیکتو-خدمات-ما-برنامه‌ریزی.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-S-barname">برنامه ریزی راهبردی و
+                            عملیاتی</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox2"><p class="AM-slideDivTextBoxP1">متن آزمایشی در رابطه با موضوع
+                        برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع
+                        برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن
+                        آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه
+                        ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی
+                        در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی
+                        راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی.</p></div>
+
+                    <div class="AM-slideDivMore2"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides2">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox2">
+                        <div style="text-align: center"><img class="AM-slideDivTitleBoxPicto-S"
+                                                             src="./img/Edited%20img/پیکتو-خدمات-ما-بهسازی.svg"
+                                                             alt="our perspective"></div>
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-S">طراحی، بهسازی و استقرار سیستم
+                            ها و فرآیند ها</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox2"><p class="AM-slideDivTextBoxP1">متن آزمایشی در رابطه با موضوع طراحی
+                        بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه
+                        با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی
+                        و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و
+                        فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی
+                        در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع
+                        طراحی بهسازی و استقرار سیستم ها و فرآیندها.</p></div>
+
+                    <div class="AM-slideDivMore2"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a class="prev" onclick="plusSlides2('left',-1, 0)">&#10095;</a>
+        <a class="next" onclick="plusSlides2('right',1, 0)">&#10094;</a>
+
+
+        <!--==========End SlidShow============-->
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContentServices ">
+            <div class="glow glowDiv"></div>
+
+
+            <!--++++++++++++++++++++Start Rectangle Yellow Div++++++++++++++++++++-->
+
+
+            <!--++++++++++++++++++++End Rectangle Yellow Div++++++++++++++++++++++-->
+
+            <div class="circleLogoَProjects center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                <div class="circleLogoَServicesTitleBox center"
+                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <div class="ServicesTitleBoxPicto">
+                        <img class="circleLogoَServicesImg" id="sajmaniimg" src="./img/SVG/پیکتو-خدمات-ما-تعالی.svg"
+                             alt="خدمات-ما-تعالی">
+                        <img class="circleLogoَServicesImg" id="tahlilimg"
+                             src="./img/Edited%20img/پیکتو-خدمات-ما-تحلیل.svg"
+                             alt="خدمات-ما-تحلیل">
+                        <img class="circleLogoَServicesImg" id="rahbordimg"
+                             src="./img/Edited%20img/پیکتو-خدمات-ما-برنامه‌ریزی.svg" alt="خدمات-ما-برنامه‌ریزی">
+                        <img class="circleLogoَServicesImg" id="behsazyimg"
+                             src="./img/Edited%20img/پیکتو-خدمات-ما-بهسازی.svg"
+                             alt="خدمات-ما-بهسازی">
+                    </div>
+                    <p class="circleLogoَServicesP" id="sajmani">تعالی سازمانی</p>
+                    <p class="circleLogoَServicesP" id="tahlil">تحلیل و عارضه یابی سازمان و کسب و کار</p>
+                    <p class="circleLogoَServicesP" id="rahbord">برنامه ریزی راهبردی و عملیاتی</p>
+                    <p class="circleLogoَServicesP" id="behsazy">طراحی بهسازی و استقرار سیستم ها و فرآیندها</p>
+                </div>
+                <div class="circleLogoَServicesTextBox center"
+                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p class="servicesMainText" id="sajmanitext">مدل های تعالی سازمانی یا سرآمدی کسب و
+                        کار ، به عنوان ابزاری قوی برای
+                        سنجش میزان استقرار سیستم ها
+                        در سازمان های مختلف به کار گرفته می شود. با به کارگیری این مدل ها، ضمن این که یک سازمان می تواند
+                        میزان موفقیت خود را در اجرای برنامه های بهبود در مقاطع زمانی مختلف مورد ارزیابی قرار دهد، امکان
+                        مقایسه عملکرد خود با سایر سازمان ها و به ویژه با بهترین آن ها را خواهد داشت .<br>حرکت در مسیر
+                        تعالی و سرآمدی برای سازمان های امروزی یک نیاز و ضرورت اجتناب ناپذیر است...</p>
+                    <p class="servicesMainText" id="tahliltext">
+                        متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با
+                        موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی
+                        سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن
+                        آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع
+                        تحلیل و عارضه یابی سازمان و کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و
+                        کسب و کار. متن آزمایشی در رابطه با موضوع تحلیل و عارضه یابی سازمان و کسب و کار
+                    </p>
+                    <p class="servicesMainText" id="rahbordtext">
+                        متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع
+                        برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن
+                        آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه
+                        ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی
+                        در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی
+                        راهبردی و عملیاتی. متن آزمایشی در رابطه با موضوع برنامه ریزی راهبردی و عملیاتی.
+                    </p>
+                    <p class="servicesMainText" id="behsazytext">
+                        متن آزمایشی در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه
+                        با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی
+                        و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و
+                        فرآیندها. متن آزمایشی در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی
+                        در رابطه با موضوع طراحی بهسازی و استقرار سیستم ها و فرآیندها. متن آزمایشی در رابطه با موضوع
+                        طراحی بهسازی و استقرار سیستم ها و فرآیندها.
+                    </p>
+
+
+                </div>
+                <div class="moreDive">
+                    <a href="#" class="aTagsTab"><p class="ServicesMoreText">ادامه توضیحات</p></a></div>
+            </div>
+            <div>
+            </div>
+
+            <!--Start Circle Tab-->
+
+            <div class="more-products-nav">
+                <div class="vertical-slider">
+                    <div class="vs-slides">
+                        <div class="vs-slides-inner">
+                            <div class="vs-products-outer">
+                                <div class="vs-products clearfix vs-row-1 active" data-row-num="1">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('sajmani','sajmanitext','sajmaniimg', this)"
+                                                    id="defaultservices">تعالی سازمانی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1"
+                                                 src="./img/Edited%20img/پیکتو-خدمات-ما-تعالی2.svg">
+
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('tahlil','tahliltext','tahlilimg', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('behsazy','behsazytext','behsazyimg', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div><!-- .vs-products -->
+                                <div class="vs-products clearfix vs-row-2" data-row-num="2">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('tahlil','tahliltext','tahlilimg', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('behsazy','behsazytext','behsazyimg', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-3" data-row-num="3"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 6</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 2</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 3</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-4" data-row-num="4"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 4</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 5</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 6</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-5" data-row-num="5"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 7</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 8</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 9</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-6" data-row-num="6"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 10</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 11</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;-->
+                            </div><!-- .vs-products-outer -->
+                            <div class="vs-controls">
+                                <div class="vs-control up deactivate"><i></i></div>
+                                <div class="vs-control down"><i></i></div>
+                            </div>
+                        </div>
+                    </div><!-- .vs-slides -->
+                </div><!-- .vertical-slider -->
+            </div>
+
+
+        </div>
+        <!--End Main Logo & Attachments-->
+
+    </section>
+</div>
+
+<!---------------------------------End Services-------------------------------------->
+
+
+<!-------------------------------Start Projects-------------------------------------->
+
+<div id="Project" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <!--==========Start SlidShow==========-->
+
+
+        <div class="AM-slideshow-container">
+            <div class="mySlides3">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Proj">
+
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Proj">طرح احصا، طبقه بندی و بهبود
+                            فرآیندهای شهرداری
+                            مشهد</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox3"><p class="AM-slideDivTextBoxP1">فرآیند ها یکی از مهمترین نظام های
+                        یک سازمان است، که اگر بر پایه درستی
+                        بنا شده باشد، سازمان را از سرعت، کیفیت و بهره وری بی نظیری برخوردار می کند و اگر نقص داشته باشد،
+                        سازمان مثابه یک قطار بدون ریل، به مسیر خود ادامه می دهد. فرآیندهایی غیرضرورری هستند؛ که
+                        دستورالعملی برایشان تدوین نگردیده و به صورت سلیقه ای اجرا می شوند؛ غیر یکپارچه هستند یا موازی یا
+                        متداخل اجرا می شوند و ... به همین دلیل ما در یک فعالیت فشرده و شبانه روزی 6 ماهه، اقدام به زیرو
+                        رو کردن کل فرآیندهای شهرداری مشهد نمودیم؛ از طرف دیگر مدلهای موفق جهانی را بررسی کرده و بعد از
+                        شناسایی و طبقه بندی تمام فرآیندهای شهرداری مشهد در 5 سطح، موفق شدیم مدل های موفق جهانی را بررسی
+                        کرده و بعد از شناسایی و طبقه بندی تمام فرآیندهای شهرداری مشهد در 5 سطح، موفق شدیم مدل بومی
+                        مدیریت شهری (PCF) را طراحی و در شهرداری مشهد مستقر کنیم. </p></div>
+
+                    <div class="AM-slideDivMore3"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides3">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Proj">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Proj">طرح تدوین مدل توسعه مشارکت های
+                            مردمی در فعالیت
+                            های حرم مطهر رضوی</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox3"><p class="AM-slideDivTextBoxP1">متن آزمایشی پروژه ها در رابطه
+                        با موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم
+                        مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت
+                        های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت های مردمی
+                        در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت
+                        های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل
+                        توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح
+                        تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با
+                        موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی.</p></div>
+
+                    <div class="AM-slideDivMore3"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides3">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Proj">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Proj">طرح بهبود موردی فرآیند های فنی و عمران آستان
+                            قدس رضوی</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox3"><p class="AM-slideDivTextBoxP1">متن آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی.</p></div>
+
+                    <div class="AM-slideDivMore3"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+                </div>
+            </div>
+
+            <div class="mySlides3">
+                <div class="AM-slideDiv">
+                    <div class="AM-slideDivTitleBox3-Proj">
+                        <div style="text-align: center"><p class="AM-slideDivTitleBoxP-Proj">طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع</p></div>
+                    </div>
+
+                    <div class="AM-slideDivTextBox3"><p class="AM-slideDivTextBoxP1">متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع خانواده
+                        کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع
+                        خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز
+                        جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت
+                        مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و
+                        فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه
+                        اندازی و فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی
+                        راه اندازی و فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین
+                        الگوی راه اندازی و فعالیت مراکز جامع خانواده کشور.</p></div>
+
+                    <div class="AM-slideDivMore3"><a href="#" style="text-decoration: none"><p class="AM-slideDivMoreP">
+                        ادامه توضیحات</p></a></div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <a class="prev" onclick="plusSlides3('left',-1, 0)">&#10095;</a>
+        <a class="next" onclick="plusSlides3('right',1, 0)">&#10094;</a>
+
+
+        <!--==========End SlidShow============-->
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent ">
+            <div class="glow glowDiv"></div>
+
+
+            <!--++++++++++++++++++++Start Rectangle Yellow Div++++++++++++++++++++-->
+
+
+            <!--++++++++++++++++++++End Rectangle Yellow Div++++++++++++++++++++++-->
+
+            <div class="circleLogoَProjects center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                <div class="circleLogoَProjectsTitleBox center"
+                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p class="circleLogoَProjectsP" id="ehsa">طرح احصا، طبقه بندی و بهبود فرآیندهای شهرداری مشهد</p>
+                    <p class="circleLogoَProjectsP" id="tadvin">طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم
+                        مطهر رضوی</p>
+                    <p class="circleLogoَProjectsP" id="behbod">طرح بهبود موردی فرآیند های فنی و عمران آستان قدس
+                        رضوی</p>
+                    <p class="circleLogoَProjectsP" id="olgo">طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع خانواده
+                        کشور</p>
+                </div>
+                <div class="circleLogoَProjectsTextBox center"
+                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p style="color: #010101;" id="ehsatext" class="projectsMainText">فرآیند ها یکی از مهمترین نظام های
+                        یک سازمان است، که اگر بر پایه درستی
+                        بنا شده باشد، سازمان را از سرعت، کیفیت و بهره وری بی نظیری برخوردار می کند و اگر نقص داشته باشد،
+                        سازمان مثابه یک قطار بدون ریل، به مسیر خود ادامه می دهد. فرآیندهایی غیرضرورری هستند؛ که
+                        دستورالعملی برایشان تدوین نگردیده و به صورت سلیقه ای اجرا می شوند؛ غیر یکپارچه هستند یا موازی یا
+                        متداخل اجرا می شوند و ... به همین دلیل ما در یک فعالیت فشرده و شبانه روزی 6 ماهه، اقدام به زیرو
+                        رو کردن کل فرآیندهای شهرداری مشهد نمودیم؛ از طرف دیگر مدلهای موفق جهانی را بررسی کرده و بعد از
+                        شناسایی و طبقه بندی تمام فرآیندهای شهرداری مشهد در 5 سطح، موفق شدیم مدل های موفق جهانی را بررسی
+                        کرده و بعد از شناسایی و طبقه بندی تمام فرآیندهای شهرداری مشهد در 5 سطح، موفق شدیم مدل بومی
+                        مدیریت شهری (PCF) را طراحی و در شهرداری مشهد مستقر کنیم. </p>
+                    <p id="tadvintext" class="projectsMainText">
+                        متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم
+                        مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت
+                        های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت های مردمی
+                        در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل توسعه مشارکت
+                        های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین مدل
+                        توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با موضوع طرح
+                        تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی. متن آزمایشی پروژه ها در رابطه با
+                        موضوع طرح تدوین مدل توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی.
+                    </p>
+                    <p id="behbodtext" class="projectsMainText">
+                        متن آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی. متن
+                        آزمایشی پروژه ها در رابطه با موضوع طرح بهبود موردی فرآیندهای فنی و عمران آستان قدس رضوی.
+                    </p>
+                    <p id="olgotext" class="projectsMainText">
+                        متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع خانواده
+                        کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز جامع
+                        خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت مراکز
+                        جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و فعالیت
+                        مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه اندازی و
+                        فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی راه
+                        اندازی و فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین الگوی
+                        راه اندازی و فعالیت مراکز جامع خانواده کشور. متن آزمایشی پروژه ها در رابطه با موضوع طرح تدوین
+                        الگوی راه اندازی و فعالیت مراکز جامع خانواده کشور.
+                    </p>
+                </div>
+                <div class="moreDive">
+                    <a href="#" class="aTagsTab"><p class="ServicesMoreText">ادامه توضیحات</p></a>
+                </div>
+            </div>
+            <div class="more-products-nav">
+                <div class="vertical-slider">
+                    <div class="vs-slides">
+                        <div class="vs-slides-inner">
+                            <div class="vs-products-outer">
+                                <div class="vs-products clearfix vs-row-1 active" data-row-num="1">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesProjects"
+                                                    onclick="ProjectTab('ehsa','ehsatext', this)"
+                                                    id="defaultprojects">
+                                                <p class="buttonProjectsP">
+                                                    طرح احصا، طبقه بندی و بهبود فرآیندهای شهرداری مشهد
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="tabOptionProjects">
+
+                                            <img class="tabOptionImg2" src="">
+
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesProjects"
+                                                    onclick="ProjectTab('tadvin','tadvintext', this)">
+                                                <p class="buttonProjectsP">
+                                                    طرح تدوین مدل
+                                                    توسعه مشارکت های مردمی در فعالیت های حرم مطهر رضوی
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="tabOptionProjects">
+
+                                            <img class="tabOptionImg2" src="">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesProjects"
+                                                    onclick="ProjectTab('behbod','behbodtext', this)">
+                                                <p class="buttonProjectsP">
+                                                    طرح بهبود موردی
+                                                    فرآیند های فنی و عمران آستان قدس رضوی
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="tabOptionProjects">
+
+                                            <img class="tabOptionImg2" src="">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservicesProjects"
+                                                    onclick="ProjectTab('olgo','olgotext', this)">
+                                                <p class="buttonProjectsP">
+                                                    طرح تدوین الگوی راه
+                                                    اندازی و فعالیت مراکز جامع خانواده کشور
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="tabOptionProjects">
+
+                                            <img class="tabOptionImg2" src="">
+
+                                        </div>
+                                    </a>
+                                </div><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-2" data-row-num="2">
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('tahlil','tahliltext','tahlilimg', this)">تحلیل
+                                                و عارضه
+                                                یابی سازمان و کسب و کار
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-تحلیل.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('rahbord','rahbordtext','rahbordimg', this)">
+                                                برنامه ریزی
+                                                راهبردی و عملیاتی
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-برنامه‌ریزی.svg">
+
+                                        </div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-title">
+                                            <button class="tabservices"
+                                                    onclick="servicesTab('behsazy','behsazytext','behsazyimg', this)">
+                                                طراحی بهسازی و
+                                                استقرار سیستم ها و فرآیندها
+                                            </button>
+                                        </div>
+                                        <div class="tabOption">
+
+                                            <img class="tabOptionImg1" src="./img/SVG/پیکتو-خدمات-ما-بهسازی.svg">
+
+                                        </div>
+                                    </a>
+                                </div>--><!-- .vs-products -->
+                                <!--<div class="vs-products clearfix vs-row-3" data-row-num="3"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 6</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 2</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 3</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-4" data-row-num="4"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 4</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 5</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 6</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-5" data-row-num="5"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 7</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 8</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 9</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;
+                                <div class="vs-products clearfix vs-row-6" data-row-num="6"><a href="#" class="vs-product">
+                                    <div class="vs-image">
+                                        <img class="img-responsive" src="https://placehold.it/80x140">
+                                    </div>
+                                    <div class="vs-title"><h4>Product 10</h4></div>
+                                </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product 11</h4></div>
+                                    </a>
+                                    <a href="#" class="vs-product">
+                                        <div class="vs-image">
+                                            <img class="img-responsive" src="https://placehold.it/80x140">
+                                        </div>
+                                        <div class="vs-title"><h4>Product</h4></div>
+                                    </a>
+                                </div>&lt;!&ndash; .vs-products &ndash;&gt;-->
+                            </div><!-- .vs-products-outer -->
+                            <div class="vs-controls">
+                                <div class="vs-control up deactivate"><i></i></div>
+                                <div class="vs-control down"><i></i></div>
+                            </div>
+                        </div>
+                    </div><!-- .vs-slides -->
+                </div><!-- .vertical-slider -->
+            </div>
+        </div>
+        <!--End Main Logo & Attachments-->
+
+    </section>
+</div>
+
+<!--------------------------------End Projects--------------------------------------->
+
+
+<!-------------------------------Start Contact Us------------------------------------>
+
+<div id="Contact" class="tabcontent">
+    <section class="center mainSection">
+
+
+        <div class="verTab"></div>
+
+        <!--Start Main Logo & Attachments-->
+        <div class="mainContent ">
+            <div class="glow glowDiv"></div>
+
+
+            <!--++++++++++++++++++++Start Rectangle Yellow Div++++++++++++++++++++-->
+
+            <div class="AM-recDiv">
+                <div class="AM-recDivTitleBox">
+
+                </div>
+                <div class="AM-recDivTextBox">
+
+                </div>
+                <div class="AM-recDivMore">
+                </div>
+            </div>
+
+            <!--++++++++++++++++++++End Rectangle Yellow Div++++++++++++++++++++++-->
+
+
+            <div class="circleLogoَContactUs center" style="background-image: url('./img/SVG/باکس-وسط-سایت-زرد.svg');">
+                <div class="circleLogoَServicesTitleBox center"
+                     style="background-image: url('./img/SVG/باکس-عنوان-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <div class="ServicesTitleBoxPicto"
+                         style="background-image: url('./img/SVG/پیکتو-صفحه-ارتباط-با-ما.svg');background-repeat: no-repeat;"></div>
+                    <p class="circleLogoَContactUsP">ارتباط با ما</p>
+                </div>
+                <div class="circleLogoَServicesTextBox center"
+                     style="background-image: url('./img/SVG/باکس-متن-وسط-سایت.svg');background-repeat:no-repeat;background-size:contain;">
+                    <p class="contactUsMainText1">تهران، اهرانباد،برج امیر، واحد 8<br><br>
+                        <b>دفتر توسعه کسب و کار:</b><br>
+                        مشهد، برج آلتون، طبقه 19، واحد 13<br><br>
+                        <b>مجتمع دپارتمان ها:</b><br>
+                        مشهد، خیابان سناباد، بین سناباد 4 و 4/1، پلاک 52</p><br><br>
+                    <div style="display: grid;grid-template-columns: 1fr 3fr;justify-items:center;justify-content:center;align-items:center;margin-top: -140px">
+                        <div style="display: grid;justify-content: center;align-self: center"><img
+                                class="contactUsPicto" src="./img/SVG/پیکتو-تلفن-تماس.svg" alt="" style=""></div>
+                        <div style="text-align: center"><p class="contactUsMainText2"><b>051-384883333-4</b></p></div>
+                    </div>
+                </div>
+                <div class="moreDive">
+                    <a href="#" class="aTagsTab"><p class="ServicesMoreText">مشاوره با مدیرعامل</p></a>
+                </div>
+            </div>
+
+
+        </div>
+        <!--End Main Logo & Attachments-->
+
+    </section>
+</div>
+
+<!--------------------------------End Contact Us------------------------------------->
+
+
+<!--===================================>Start Scripts<=================================-->
+
+
+<script src="./js/jquery-1.12.0.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/contentCarouselJs.js"></script>
+
+<script src="./js/tabJs.js"></script>
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script id="rendered-js">
+
+    moreProductsSlider();
+
+    function moreProductsSlider() {
+
+        // Cache elements
+        var $productsOuter = $('.vs-products-outer');
+        // Get row height
+        var rowHeight = $('.vs-slides-inner').height();
+        // Set control click state
+        var canClick = true;
+
+        // Slide Up
+        $('.vs-control.down').click(function () {
+
+            var $activeRow = $('.vs-products.active');
+
+            // Check if there is a next row to slide to
+            if ($activeRow.next().length && canClick) {
+                canClick = false;
+                // Get animation distance
+                var distance = -(parseInt($activeRow.data('row-num')) * rowHeight);
+
+                $productsOuter.velocity({
+                        top: distance
+                    },
+                    500, function () {
+                        canClick = true;
+                        // Change active row
+                        $activeRow.removeClass('active').next().addClass('active');
+                        // Activate other control
+                        $('.vs-control.up').removeClass('deactivate');
+
+                        // If there is no next row
+                        if (!$('.vs-products.active').next().length) {
+                            $('.vs-control.down').addClass('deactivate');
+                        }
+                    });
+            }
+
+        });
+
+        // Slide Down
+        $('.vs-control.up').click(function () {
+
+            var $activeRow = $('.vs-products.active');
+
+            // Check if there is a next row to slide to
+            if ($activeRow.prev().length && canClick) {
+                canClick = false;
+                // Get animation distance
+                var distance = -(parseInt($activeRow.data('row-num') - 2) * rowHeight);
+
+                $productsOuter.velocity({
+                        top: distance
+                    },
+                    500, function () {
+                        canClick = true;
+                        // Change active row
+                        $activeRow.removeClass('active').prev().addClass('active');
+                        // Activate other control
+                        $('.vs-control.down').removeClass('deactivate');
+
+                        // If there is no next row
+                        if (!$('.vs-products.active').prev().length) {
+                            $('.vs-control.up').addClass('deactivate');
+                        }
+                    });
+            }
+        });
+
+        return this;
+    };
+</script>
+
+
+<script src="./js/mobileTabJs.js"></script>
+
+<script src="./js/flickity.pkgd.js"></script>
+
+
+<script src="testSlide.js"></script>
+
+
+<!--++++++++++++++++++++++++++++Start SlidShow Scripts+++++++++++++++++++++++++-->
+
+<!--========SYSTEM=======-->
+<script>
+    var slideIndex4 = [1, 1];
+    var slideId4 = ["mySlides4"];
+    showSlides4(1, 0);
+    showSlides4(1, 1);
+
+    function plusSlides4(translate4, n4, no4) {
+        showSlides4(translate4, slideIndex4[no4] += n4, no4);
+    }
+
+    function showSlides4(translate4, n4, no4) {
+        var i4;
+        var x4 = document.getElementsByClassName(slideId4[no4]);
+        var asd4 = document.getElementsByClassName('AM-slideDivTitleBox4');
+        var fgh4 = document.getElementsByClassName('AM-slideDivMore4');
+        var zxc4 = document.getElementsByClassName('AM-slideDivTextBox4');
+        if (n4 > x4.length) {
+            slideIndex4[no4] = 1
+        }
+        if (n4 < 1) {
+            slideIndex4[no4] = x4.length
+        }
+        for (i4 = 0; i4 < x4.length; i4++) {
+            x4[i4].style.display = "none";
+        }
+        x4[slideIndex4[no4] - 1].style.display = 'block';
+
+        if (translate4 === 'left') {
+            x4[slideIndex4[no4] - 1].style.animation = "slider01L 1s";
+            zxc4[slideIndex4[no4] - 1].style.animation = "slider04L 1.3s";
+        }
+        else {
+            x4[slideIndex4[no4] - 1].style.animation = "slider01R 1s";
+            zxc4[slideIndex4[no4] - 1].style.animation = "slider04R 1.3s";
+        }
+        asd4[slideIndex4[no4] - 1].style.animation = "slider02 2.5s";
+        fgh4[slideIndex4[no4] - 1].style.animation = "slider03 3.5s";
+
+    }
+</script>
+
+
+<script>
+    plusSlides4('left', -1, 0);
+</script>
+
+
+<!--========PROJECTS=======-->
+<script>
+    var slideIndex3 = [1, 1];
+    var slideId3 = ["mySlides3"];
+    showSlides3(1, 0);
+    showSlides3(1, 1);
+
+    function plusSlides3(translate3, n3, no3) {
+        showSlides3(translate3, slideIndex3[no3] += n3, no3);
+    }
+
+    function showSlides3(translate3, n3, no3) {
+        var i3;
+        var x3 = document.getElementsByClassName(slideId3[no3]);
+        var asd3 = document.getElementsByClassName('AM-slideDivTitleBox3');
+        var fgh3 = document.getElementsByClassName('AM-slideDivMore3');
+        var zxc3 = document.getElementsByClassName('AM-slideDivTextBox3');
+        if (n3 > x3.length) {
+            slideIndex3[no3] = 1
+        }
+        if (n3 < 1) {
+            slideIndex3[no3] = x3.length
+        }
+        for (i3 = 0; i3 < x3.length; i3++) {
+            x3[i3].style.display = "none";
+        }
+        x3[slideIndex3[no3] - 1].style.display = 'block';
+
+        if (translate3 === 'left') {
+            x3[slideIndex3[no3] - 1].style.animation = "slider01L 1s";
+            zxc3[slideIndex3[no3] - 1].style.animation = "slider04L 1.3s";
+        }
+        else {
+            x3[slideIndex3[no3] - 1].style.animation = "slider01R 1s";
+            zxc3[slideIndex3[no3] - 1].style.animation = "slider04R 1.3s";
+        }
+        asd3[slideIndex3[no3] - 1].style.animation = "slider02 2.5s";
+        fgh3[slideIndex3[no3] - 1].style.animation = "slider03 3.5s";
+
+
+    }
+</script>
+
+
+<script>
+    plusSlides3('left', -1, 0);
+</script>
+
+
+<!--========SERVICES=======-->
+<script>
+    var slideIndex2 = [1, 1];
+    var slideId2 = ["mySlides2"];
+    showSlides2(1, 0);
+    showSlides2(1, 1);
+
+    function plusSlides2(translate2, n2, no2) {
+        showSlides2(translate2, slideIndex2[no2] += n2, no2);
+    }
+
+    function showSlides2(translate2, n2, no2) {
+        var i2;
+        var x2 = document.getElementsByClassName(slideId2[no2]);
+        var asd2 = document.getElementsByClassName('AM-slideDivTitleBox2');
+        var fgh2 = document.getElementsByClassName('AM-slideDivMore2');
+        var zxc2 = document.getElementsByClassName('AM-slideDivTextBox2');
+        if (n2 > x2.length) {
+            slideIndex2[no2] = 1
+        }
+        if (n2 < 1) {
+            slideIndex2[no2] = x2.length
+        }
+        for (i2 = 0; i2 < x2.length; i2++) {
+            x2[i2].style.display = "none";
+        }
+        x2[slideIndex2[no2] - 1].style.display = 'block';
+
+        if (translate2 === 'left') {
+            x2[slideIndex2[no2] - 1].style.animation = "slider01L 1s";
+            zxc2[slideIndex2[no2] - 1].style.animation = "slider04L 1.3s";
+        }
+        else {
+            x2[slideIndex2[no2] - 1].style.animation = "slider01R 1s";
+            zxc2[slideIndex2[no2] - 1].style.animation = "slider04R 1.3s";
+        }
+        asd2[slideIndex2[no2] - 1].style.animation = "slider02 2.5s";
+        fgh2[slideIndex2[no2] - 1].style.animation = "slider03 3.5s";
+
+
+    }
+</script>
+
+
+<script>
+    plusSlides2('left', -1, 0);
+</script>
+
+
+<!--========ABOUT==========-->
+<script>
+    var slideIndex = [1, 1];
+    var slideId = ["mySlides1"];
+    showSlides(1, 0);
+    showSlides(1, 1);
+
+    function plusSlides(translate, n, no) {
+        showSlides(translate, slideIndex[no] += n, no);
+    }
+
+    function showSlides(translate, n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        var asd = document.getElementsByClassName('AM-slideDivTitleBox');
+        var fgh = document.getElementsByClassName('AM-slideDivMore');
+        var zxc = document.getElementsByClassName('AM-slideDivTextBox');
+        if (n > x.length) {
+            slideIndex[no] = 1
+        }
+        if (n < 1) {
+            slideIndex[no] = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = 'block';
+
+        if (translate === 'left') {
+            x[slideIndex[no] - 1].style.animation = "slider01L 1s";
+            zxc[slideIndex[no] - 1].style.animation = "slider04L 1.3s";
+        }
+        else {
+            x[slideIndex[no] - 1].style.animation = "slider01R 1s";
+            zxc[slideIndex[no] - 1].style.animation = "slider04R 1.3s";
+        }
+        asd[slideIndex[no] - 1].style.animation = "slider02 2.5s";
+        fgh[slideIndex[no] - 1].style.animation = "slider03 3.5s";
+
+
+    }
+</script>
+<script>
+    plusSlides('left', -1, 0);
+</script>
+
+
+<!--++++++++++++++++++++++++++++End SlidShow Scripts+++++++++++++++++++++++++++-->
+
+
+<!--===================================>End Scripts<=================================-->
+</body>
+</html>
